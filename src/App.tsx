@@ -360,7 +360,7 @@ export function App() {
 
             <div className="flex items-center gap-1">
               <a
-                href="https://github.com/Aetherx86/matjip-map/blob/main/LIST.md"
+                href="https://github.com/omakasekim/matjip-map/blob/main/LIST.md"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="국가별 마크다운 리스트 보기"

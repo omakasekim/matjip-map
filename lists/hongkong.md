@@ -2,7 +2,7 @@
 
 총 **244곳** · **식당 이름** — 무슨 음식 파는지 · `위치`
 
-> 🗺️ **지도에서 보기:** https://aetherx86.github.io/matjip-map/?country=HK
+> 🗺️ **지도에서 보기:** https://omakasekim.github.io/matjip-map/?country=HK
 
 ## 📍 홍콩섬 (155곳)
 - **8 1/2 Otto e Mezzo - Bombana** [미슐랭 3스타] — Italian · `Shop 202, 2F, Alexandra House, 18 Chater Road, Central, Hong Kong, Hong Kong SAR`

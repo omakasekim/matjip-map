@@ -2,7 +2,7 @@
 
 총 **457곳** · **식당 이름** — 무슨 음식 파는지 · `위치`
 
-> 🗺️ **지도에서 보기:** https://aetherx86.github.io/matjip-map/?country=TW
+> 🗺️ **지도에서 보기:** https://omakasekim.github.io/matjip-map/?country=TW
 
 ## 📍 타이베이 (175곳)
 - **Le Palais** [미슐랭 3스타] — Cantonese · `17F, Palais de Chine Hotel, 3, Section 1, Chengde Road, Datong District, Taipei, 103, Taiwan Region`

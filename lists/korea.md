@@ -2,7 +2,7 @@
 
 총 **2,700곳** · **식당 이름** — 무슨 음식 파는지 · `위치`
 
-> 🗺️ **지도에서 보기:** https://aetherx86.github.io/matjip-map/?country=KR
+> 🗺️ **지도에서 보기:** https://omakasekim.github.io/matjip-map/?country=KR
 
 ## 📍 서울 (1,192곳)
 - **향동가** — 한식 (평양냉면, 평양 들기름 냉면, 평양 회냉면 외 11종) · `서울 강남구 논현로136길 15 1층`

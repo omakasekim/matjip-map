@@ -2,7 +2,7 @@
 
 총 **7,624곳** · **식당 이름** — 무슨 음식 파는지 · `위치`
 
-> 🗺️ **지도에서 보기:** https://aetherx86.github.io/matjip-map/?country=JP
+> 🗺️ **지도에서 보기:** https://omakasekim.github.io/matjip-map/?country=JP
 
 ## 📍 도쿄 (2,470곳)
 - **Gyukatsu Motomura** [도쿄 추천] — 일식 · `도쿄 신주쿠구 (35.6900, 139.7038)`

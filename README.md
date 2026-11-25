@@ -2,18 +2,18 @@
 
 **한국 · 일본 · 홍콩 · 대만** 총 **11,025곳** 맛집을 인터랙티브 지도와 전체 리스트로 탐색하고, 마크다운·디스코드로 바로 공유할 수 있는 웹 앱입니다.
 
-- **🗺️ 라이브 지도 앱 바로 열기:** https://aetherx86.github.io/matjip-map/
-- **📋 전체 리스트 모드:** https://aetherx86.github.io/matjip-map/?view=list
+- **🗺️ 라이브 지도 앱 바로 열기:** https://omakasekim.github.io/matjip-map/
+- **📋 전체 리스트 모드:** https://omakasekim.github.io/matjip-map/?view=list
 - **📄 국가별 마크다운 리스트:** [LIST.md](LIST.md) ([한국](lists/korea.md) · [일본](lists/japan.md) · [홍콩](lists/hongkong.md) · [대만](lists/taiwan.md))
 
 ## 수록 현황 (총 11,025곳)
 
 | 국가 | 수록 수 | 주요 구성 | 바로가기 |
 | :--- | ---: | :--- | :--- |
-| 🇰🇷 **대한민국** | 2,700곳 | 전국 주요 맛집 + 서울·부산 미슐랭 가이드 | [한국 지도](https://aetherx86.github.io/matjip-map/?country=KR) |
-| 🇯🇵 **일본** | 7,624곳 | 도쿄·오사카 추천 코스 + 타베로그 백명점(2024·2025) + 타베로그 도쿄 4.0+ Top 200 + 일본 미슐랭 가이드 | [일본 지도](https://aetherx86.github.io/matjip-map/?country=JP) |
-| 🇭🇰 **홍콩** | 244곳 | 홍콩 미슐랭(스타·빕구르망·셀렉티드) + 홍콩 로컬 대표 명소 | [홍콩 지도](https://aetherx86.github.io/matjip-map/?country=HK) |
-| 🇹🇼 **대만** | 457곳 | 대만 미슐랭(타이베이·타이중·타이난·가오슝·신주·신베이) + 대만 로컬 대표 명소 | [대만 지도](https://aetherx86.github.io/matjip-map/?country=TW) |
+| 🇰🇷 **대한민국** | 2,700곳 | 전국 주요 맛집 + 서울·부산 미슐랭 가이드 | [한국 지도](https://omakasekim.github.io/matjip-map/?country=KR) |
+| 🇯🇵 **일본** | 7,624곳 | 도쿄·오사카 추천 코스 + 타베로그 백명점(2024·2025) + 타베로그 도쿄 4.0+ Top 200 + 일본 미슐랭 가이드 | [일본 지도](https://omakasekim.github.io/matjip-map/?country=JP) |
+| 🇭🇰 **홍콩** | 244곳 | 홍콩 미슐랭(스타·빕구르망·셀렉티드) + 홍콩 로컬 대표 명소 | [홍콩 지도](https://omakasekim.github.io/matjip-map/?country=HK) |
+| 🇹🇼 **대만** | 457곳 | 대만 미슐랭(타이베이·타이중·타이난·가오슝·신주·신베이) + 대만 로컬 대표 명소 | [대만 지도](https://omakasekim.github.io/matjip-map/?country=TW) |
 
 ## 주요 기능
 
