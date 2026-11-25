@@ -9,14 +9,17 @@ import {
   UtensilsCrossed,
   Share2,
   Navigation,
+  Award,
 } from 'lucide-react';
 import { Place, getCategoryMeta } from '../types';
 import {
   formatPlaceDiscordLine,
   formatPrice,
+  getCountryLabel,
   getGoogleMapUrl,
   getKakaoMapUrl,
   getNaverMapUrl,
+  getTabelogUrl,
 } from '../utils/format';
 
 interface PlaceDetailCardProps {
@@ -37,6 +40,8 @@ export const PlaceDetailCard: React.FC<PlaceDetailCardProps> = ({
   const [copiedAddr, setCopiedAddr] = useState(false);
   const [copiedDiscord, setCopiedDiscord] = useState(false);
   const meta = getCategoryMeta(place.mc);
+  const menus = place.m ?? [];
+  const totalMenus = place.mt ?? menus.length;
 
   const copyText = async (text: string, setter: (v: boolean) => void) => {
     try {
@@ -44,13 +49,12 @@ export const PlaceDetailCard: React.FC<PlaceDetailCardProps> = ({
       setter(true);
       setTimeout(() => setter(false), 1600);
     } catch {
-      // Fallback ignored
+      // ignore
     }
   };
 
   return (
-    <div className="absolute bottom-4 right-4 left-4 md:left-auto md:w-[400px] z-[1000] bg-slate-900/95 backdrop-blur-xl border border-slate-700/80 rounded-2xl shadow-2xl overflow-hidden text-slate-100 animate-in fade-in">
-      {/* Top accent bar */}
+    <div className="absolute bottom-4 right-4 left-4 md:left-auto md:w-[410px] z-[1000] bg-slate-900/95 backdrop-blur-xl border border-slate-700/80 rounded-2xl shadow-2xl overflow-hidden text-slate-100">
       <div className="h-1.5 w-full" style={{ backgroundColor: meta.color }} />
 
       <div className="p-4 max-h-[68vh] overflow-y-auto">
@@ -58,20 +62,29 @@ export const PlaceDetailCard: React.FC<PlaceDetailCardProps> = ({
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
             <div className="flex items-center gap-1.5 flex-wrap mb-1.5">
-              <span className={`inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full border ${meta.badge}`}>
+              <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-slate-800 text-slate-200 border border-slate-700">
+                {getCountryLabel(place.co)}
+              </span>
+              <span className={`inline-flex items-center gap-1 text-[11px] font-semibold px-2 py-0.5 rounded-full border ${meta.badge}`}>
                 <span>{meta.emoji}</span>
                 <span>{place.c}</span>
               </span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700">
+              <span className="text-[11px] px-2 py-0.5 rounded-full bg-slate-800/80 text-slate-300 border border-slate-700/80">
                 {place.sr}
               </span>
               {distanceKm !== null && (
-                <span className="text-xs px-2 py-0.5 rounded-full bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 font-medium">
+                <span className="text-[11px] px-2 py-0.5 rounded-full bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 font-semibold">
                   {distanceKm < 1 ? `${Math.round(distanceKm * 1000)}m` : `${distanceKm.toFixed(1)}km`}
                 </span>
               )}
             </div>
             <h2 className="text-xl font-bold text-white tracking-tight leading-snug">{place.n}</h2>
+            {place.b && (
+              <div className="mt-1.5 inline-flex items-center gap-1 text-xs font-bold px-2.5 py-0.5 rounded-lg bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                <Award className="w-3.5 h-3.5" />
+                <span>{place.b}</span>
+              </div>
+            )}
           </div>
 
           <div className="flex items-center gap-1 shrink-0">
@@ -100,7 +113,7 @@ export const PlaceDetailCard: React.FC<PlaceDetailCardProps> = ({
         <div className="mt-3 flex items-start justify-between gap-2 bg-slate-950/70 border border-slate-800 rounded-xl p-2.5">
           <div className="flex items-start gap-2 text-sm text-slate-300 min-w-0">
             <MapPin className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
-            <span className="break-keep">{place.a}</span>
+            <span className="break-words">{place.a}</span>
           </div>
           <button
             onClick={() => copyText(place.a, setCopiedAddr)}
@@ -111,43 +124,87 @@ export const PlaceDetailCard: React.FC<PlaceDetailCardProps> = ({
           </button>
         </div>
 
-        {/* Navigation external links */}
-        <div className="mt-3 grid grid-cols-3 gap-2">
-          <a
-            href={getNaverMapUrl(place)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-[#03C75A]/15 hover:bg-[#03C75A]/25 text-[#22e577] border border-[#03C75A]/30 transition"
-          >
-            <Navigation className="w-3.5 h-3.5" />
-            <span>네이버 지도</span>
-          </a>
-          <a
-            href={getKakaoMapUrl(place)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-[#FEE500]/15 hover:bg-[#FEE500]/25 text-[#FEE500] border border-[#FEE500]/30 transition"
-          >
-            <ExternalLink className="w-3.5 h-3.5" />
-            <span>카카오맵</span>
-          </a>
-          <a
-            href={getGoogleMapUrl(place)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-blue-500/15 hover:bg-blue-500/25 text-blue-300 border border-blue-500/30 transition"
-          >
-            <ExternalLink className="w-3.5 h-3.5" />
-            <span>구글 지도</span>
-          </a>
-        </div>
+        {/* Country-aware Navigation links */}
+        {place.co === 'KR' ? (
+          <div className="mt-3 grid grid-cols-3 gap-2">
+            <a
+              href={getNaverMapUrl(place)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-[#03C75A]/15 hover:bg-[#03C75A]/25 text-[#22e577] border border-[#03C75A]/30 transition"
+            >
+              <Navigation className="w-3.5 h-3.5" />
+              <span>네이버 지도</span>
+            </a>
+            <a
+              href={getKakaoMapUrl(place)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-[#FEE500]/15 hover:bg-[#FEE500]/25 text-[#FEE500] border border-[#FEE500]/30 transition"
+            >
+              <ExternalLink className="w-3.5 h-3.5" />
+              <span>카카오맵</span>
+            </a>
+            <a
+              href={getGoogleMapUrl(place)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-blue-500/15 hover:bg-blue-500/25 text-blue-300 border border-blue-500/30 transition"
+            >
+              <ExternalLink className="w-3.5 h-3.5" />
+              <span>구글 지도</span>
+            </a>
+          </div>
+        ) : place.co === 'JP' ? (
+          <div className="mt-3 grid grid-cols-2 gap-2">
+            <a
+              href={getGoogleMapUrl(place)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-blue-500/15 hover:bg-blue-500/25 text-blue-300 border border-blue-500/30 transition"
+            >
+              <Navigation className="w-3.5 h-3.5" />
+              <span>구글 지도 길찾기</span>
+            </a>
+            <a
+              href={getTabelogUrl(place)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 transition"
+            >
+              <ExternalLink className="w-3.5 h-3.5" />
+              <span>타베로그 열기</span>
+            </a>
+          </div>
+        ) : (
+          <div className="mt-3 grid grid-cols-2 gap-2">
+            <a
+              href={getGoogleMapUrl(place)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-blue-500/15 hover:bg-blue-500/25 text-blue-300 border border-blue-500/30 transition"
+            >
+              <Navigation className="w-3.5 h-3.5" />
+              <span>구글 지도 길찾기</span>
+            </a>
+            <a
+              href={`https://www.google.com/search?q=${encodeURIComponent(`${place.n} ${place.r}`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1.5 py-2 px-2 rounded-xl text-xs font-bold bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-300 border border-emerald-500/30 transition"
+            >
+              <ExternalLink className="w-3.5 h-3.5" />
+              <span>리뷰·사진 검색</span>
+            </a>
+          </div>
+        )}
 
         {/* Menus */}
         <div className="mt-4">
           <div className="flex items-center justify-between mb-2">
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 flex items-center gap-1.5">
               <UtensilsCrossed className="w-3.5 h-3.5 text-amber-400" />
-              <span>주요 메뉴 {place.mt > 0 ? `(${place.mt}종)` : ''}</span>
+              <span>음식 · 주요 메뉴 {totalMenus > 0 ? `(${totalMenus}종)` : ''}</span>
             </h3>
             <button
               onClick={() => copyText(formatPlaceDiscordLine(place), setCopiedDiscord)}
@@ -158,9 +215,9 @@ export const PlaceDetailCard: React.FC<PlaceDetailCardProps> = ({
             </button>
           </div>
 
-          {place.m.length > 0 ? (
+          {menus.length > 0 ? (
             <div className="divide-y divide-slate-800/80 bg-slate-950/60 border border-slate-800 rounded-xl px-3">
-              {place.m.map((item, idx) => (
+              {menus.map((item, idx) => (
                 <div key={idx} className="py-2 flex items-center justify-between gap-3 text-sm">
                   <span className="text-slate-200 truncate">{item.n}</span>
                   {item.p ? (
@@ -170,15 +227,16 @@ export const PlaceDetailCard: React.FC<PlaceDetailCardProps> = ({
                   ) : null}
                 </div>
               ))}
-              {place.mt > place.m.length && (
+              {totalMenus > menus.length && (
                 <div className="py-2 text-xs text-slate-500 text-center">
-                  외 {place.mt - place.m.length}개 메뉴 더 있음
+                  외 {totalMenus - menus.length}개 메뉴 더 있음
                 </div>
               )}
             </div>
           ) : (
             <div className="text-xs text-slate-400 bg-slate-950/50 border border-slate-800 rounded-xl p-3">
-              상세 메뉴 정보는 등록되어 있지 않습니다. ({place.c})
+              카테고리: <strong className="text-slate-200">{place.c}</strong>
+              {place.b ? ` · ${place.b}` : ''}
             </div>
           )}
         </div>

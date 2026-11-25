@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   MapPin,
   Heart,
@@ -8,13 +8,17 @@ import {
   Check,
   Map as MapIcon,
   ArrowUpDown,
+  Award,
 } from 'lucide-react';
 import { Place, getCategoryMeta } from '../types';
 import {
   formatMenuSummary,
   formatPrice,
+  getCountryLabel,
+  getGoogleMapUrl,
   getKakaoMapUrl,
   getNaverMapUrl,
+  getTabelogUrl,
   haversineKm,
 } from '../utils/format';
 
@@ -46,6 +50,10 @@ export const FullListView: React.FC<FullListViewProps> = ({
   const [visibleCount, setVisibleCount] = useState(LIST_PAGE_SIZE);
   const [copiedId, setCopiedId] = useState<number | null>(null);
 
+  useEffect(() => {
+    setVisibleCount(LIST_PAGE_SIZE);
+  }, [places]);
+
   const handleCopyAddress = async (p: Place) => {
     try {
       await navigator.clipboard.writeText(p.a);
@@ -57,14 +65,13 @@ export const FullListView: React.FC<FullListViewProps> = ({
   };
 
   return (
-    <div className="h-full w-full overflow-y-auto bg-[#070B14] px-4 sm:px-6 pb-16 pt-16 lg:pt-16">
+    <div className="h-full w-full overflow-y-auto bg-[#070B14] px-4 sm:px-6 pb-16 pt-16">
       <div className="max-w-6xl mx-auto">
-        {/* Top bar */}
         <div className="flex flex-wrap items-center justify-between gap-3 mb-4 pb-3 border-b border-slate-800/80">
           <div>
             <h2 className="text-lg font-extrabold text-white">전체 리스트 보기</h2>
             <p className="text-xs text-slate-400 mt-0.5 tabular-nums">
-              검색 결과 <span className="text-cyan-400 font-bold">{places.length.toLocaleString('ko-KR')}곳</span> · 카드를 누르면 지도 위치로 이동합니다
+              검색 결과 <span className="text-cyan-400 font-bold">{places.length.toLocaleString('ko-KR')}곳</span> · 지도 보기 버튼으로 위치를 바로 확인할 수 있습니다
             </p>
           </div>
 
@@ -77,7 +84,7 @@ export const FullListView: React.FC<FullListViewProps> = ({
             >
               <option value="default">기본 추천순</option>
               <option value="name">식당 이름순 (가나다)</option>
-              <option value="menus">메뉴 많은 순</option>
+              <option value="menus">메뉴 등록순</option>
               {userLocation && <option value="distance">내 주변 거리순</option>}
             </select>
           </div>
@@ -99,6 +106,7 @@ export const FullListView: React.FC<FullListViewProps> = ({
               {places.slice(0, visibleCount).map((p) => {
                 const meta = getCategoryMeta(p.mc);
                 const isFav = favorites.has(p.i);
+                const menus = p.m ?? [];
                 const dist = userLocation
                   ? haversineKm(userLocation.lat, userLocation.lng, p.lat, p.lng)
                   : null;
@@ -109,14 +117,16 @@ export const FullListView: React.FC<FullListViewProps> = ({
                     className="group bg-slate-900/85 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-4 flex flex-col justify-between transition shadow-sm"
                   >
                     <div>
-                      {/* Badges row */}
                       <div className="flex items-center justify-between gap-2 mb-2">
                         <div className="flex items-center gap-1.5 flex-wrap min-w-0">
+                          <span className="text-[11px] font-bold px-1.5 py-0.5 rounded-md bg-slate-800 text-slate-200 border border-slate-700">
+                            {getCountryLabel(p.co)}
+                          </span>
                           <span className={`inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-full border ${meta.badge}`}>
                             <span>{meta.emoji}</span>
                             <span>{p.c}</span>
                           </span>
-                          <span className="text-[11px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700/80">
+                          <span className="text-[11px] px-2 py-0.5 rounded-full bg-slate-800/80 text-slate-300 border border-slate-700/80">
                             {p.sr}
                           </span>
                           {dist !== null && (
@@ -138,17 +148,22 @@ export const FullListView: React.FC<FullListViewProps> = ({
                         </button>
                       </div>
 
-                      {/* Restaurant Name */}
                       <h3 className="text-base font-extrabold text-white tracking-tight">{p.n}</h3>
 
-                      {/* Menu summary + top priced chips */}
+                      {p.b && (
+                        <div className="mt-1 inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-md bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                          <Award className="w-3 h-3" />
+                          <span>{p.b}</span>
+                        </div>
+                      )}
+
                       <p className="text-xs text-slate-300 mt-1.5 leading-relaxed line-clamp-2">
                         {formatMenuSummary(p, 4)}
                       </p>
 
-                      {p.m.length > 0 && (
+                      {menus.length > 0 && (
                         <div className="mt-2 flex flex-wrap gap-1">
-                          {p.m.slice(0, 3).map((m, idx) => (
+                          {menus.slice(0, 3).map((m, idx) => (
                             <span
                               key={idx}
                               className="text-[11px] px-2 py-0.5 rounded-md bg-slate-950/80 border border-slate-800 text-slate-300"
@@ -160,7 +175,6 @@ export const FullListView: React.FC<FullListViewProps> = ({
                         </div>
                       )}
 
-                      {/* Address */}
                       <div className="mt-2.5 flex items-center justify-between gap-2 text-xs text-slate-400">
                         <span className="flex items-center gap-1 min-w-0 truncate">
                           <MapPin className="w-3.5 h-3.5 text-slate-500 shrink-0" />
@@ -180,7 +194,6 @@ export const FullListView: React.FC<FullListViewProps> = ({
                       </div>
                     </div>
 
-                    {/* Footer actions */}
                     <div className="mt-3 pt-3 border-t border-slate-800/80 grid grid-cols-3 gap-1.5">
                       <button
                         onClick={() => onViewOnMap(p)}
@@ -189,24 +202,71 @@ export const FullListView: React.FC<FullListViewProps> = ({
                         <MapIcon className="w-3 h-3" />
                         <span>지도 보기</span>
                       </button>
-                      <a
-                        href={getNaverMapUrl(p)}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-1 py-1.5 rounded-lg bg-[#03C75A]/15 hover:bg-[#03C75A]/25 text-[#22e577] border border-[#03C75A]/30 text-[11px] font-bold transition"
-                      >
-                        <Navigation className="w-3 h-3" />
-                        <span>네이버</span>
-                      </a>
-                      <a
-                        href={getKakaoMapUrl(p)}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-1 py-1.5 rounded-lg bg-[#FEE500]/15 hover:bg-[#FEE500]/25 text-[#FEE500] border border-[#FEE500]/30 text-[11px] font-bold transition"
-                      >
-                        <ExternalLink className="w-3 h-3" />
-                        <span>카카오</span>
-                      </a>
+
+                      {p.co === 'KR' ? (
+                        <>
+                          <a
+                            href={getNaverMapUrl(p)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-1 py-1.5 rounded-lg bg-[#03C75A]/15 hover:bg-[#03C75A]/25 text-[#22e577] border border-[#03C75A]/30 text-[11px] font-bold transition"
+                          >
+                            <Navigation className="w-3 h-3" />
+                            <span>네이버</span>
+                          </a>
+                          <a
+                            href={getKakaoMapUrl(p)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-1 py-1.5 rounded-lg bg-[#FEE500]/15 hover:bg-[#FEE500]/25 text-[#FEE500] border border-[#FEE500]/30 text-[11px] font-bold transition"
+                          >
+                            <ExternalLink className="w-3 h-3" />
+                            <span>카카오</span>
+                          </a>
+                        </>
+                      ) : p.co === 'JP' ? (
+                        <>
+                          <a
+                            href={getGoogleMapUrl(p)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-1 py-1.5 rounded-lg bg-blue-500/15 hover:bg-blue-500/25 text-blue-300 border border-blue-500/30 text-[11px] font-bold transition"
+                          >
+                            <Navigation className="w-3 h-3" />
+                            <span>구글맵</span>
+                          </a>
+                          <a
+                            href={getTabelogUrl(p)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-1 py-1.5 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 text-[11px] font-bold transition"
+                          >
+                            <ExternalLink className="w-3 h-3" />
+                            <span>타베로그</span>
+                          </a>
+                        </>
+                      ) : (
+                        <>
+                          <a
+                            href={getGoogleMapUrl(p)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-1 py-1.5 rounded-lg bg-blue-500/15 hover:bg-blue-500/25 text-blue-300 border border-blue-500/30 text-[11px] font-bold transition"
+                          >
+                            <Navigation className="w-3 h-3" />
+                            <span>구글맵</span>
+                          </a>
+                          <a
+                            href={`https://www.google.com/search?q=${encodeURIComponent(`${p.n} ${p.r}`)}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-1 py-1.5 rounded-lg bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-300 border border-emerald-500/30 text-[11px] font-bold transition"
+                          >
+                            <ExternalLink className="w-3 h-3" />
+                            <span>리뷰검색</span>
+                          </a>
+                        </>
+                      )}
                     </div>
                   </div>
                 );

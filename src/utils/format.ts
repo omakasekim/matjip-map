@@ -1,4 +1,4 @@
-import { Place } from '../types';
+import { COUNTRY_BY_CODE, Place } from '../types';
 
 export function formatPrice(price?: number): string {
   if (!price || price <= 0) return '';
@@ -6,15 +6,18 @@ export function formatPrice(price?: number): string {
 }
 
 export function formatMenuSummary(p: Place, limit = 4): string {
-  if (!p.m || p.m.length === 0) return p.c;
-  const top = p.m.slice(0, limit).map((x) => x.n);
-  const rest = Math.max(0, p.mt - top.length);
+  const menus = p.m ?? [];
+  if (menus.length === 0) return p.c;
+  const top = menus.slice(0, limit).map((x) => x.n);
+  const total = p.mt ?? menus.length;
+  const rest = Math.max(0, total - top.length);
   const mstr = top.join(', ') + (rest > 0 ? ` 외 ${rest}종` : '');
   return `${p.c} (${mstr})`;
 }
 
 export function formatPlaceDiscordLine(p: Place): string {
-  return `- **${p.n}** — ${formatMenuSummary(p, 4)} · \`${p.a}\``;
+  const badge = p.b ? ` [${p.b}]` : '';
+  return `- **${p.n}**${badge} — ${formatMenuSummary(p, 4)} · \`${p.a}\``;
 }
 
 export function buildDiscordChunks(places: Place[], title: string, maxLen = 1880): string[] {
@@ -57,6 +60,11 @@ export function haversineKm(lat1: number, lng1: number, lat2: number, lng2: numb
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
+export function getCountryLabel(co: Place['co']): string {
+  const info = COUNTRY_BY_CODE[co];
+  return info ? `${info.flag} ${info.label}` : co;
+}
+
 export function getNaverMapUrl(p: Place): string {
   return `https://map.naver.com/p/search/${encodeURIComponent(`${p.n} ${p.a.split(' ').slice(0, 2).join(' ')}`)}`;
 }
@@ -66,5 +74,12 @@ export function getKakaoMapUrl(p: Place): string {
 }
 
 export function getGoogleMapUrl(p: Place): string {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.n} ${p.a}`)}`;
+  const hasCoordOnlyAddr = p.a.includes('(') && p.a.includes(',');
+  const q = hasCoordOnlyAddr ? `${p.n} ${p.r}` : `${p.n} ${p.a}`;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+
+export function getTabelogUrl(p: Place): string {
+  if (p.u && p.u.includes('tabelog.com')) return p.u;
+  return `https://tabelog.com/rstLst/?vs=1&sa=&sk=${encodeURIComponent(p.n)}`;
 }

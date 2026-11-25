@@ -1,20 +1,27 @@
+export type CountryCode = 'KR' | 'JP' | 'HK' | 'TW';
+export type CountryFilter = 'ALL' | CountryCode;
+export type BadgeFilter = 'ALL' | 'TABELOG' | 'MICHELIN' | 'MYMAP' | 'LOCAL';
+
 export interface MenuItem {
   n: string;
   p?: number;
 }
 
 export interface Place {
-  i: number;       // ID
-  n: string;       // Name
-  c: string;       // Raw category
-  mc: string;      // Macro category
-  r: string;       // Region
-  sr: string;      // Subregion
-  a: string;       // Address
-  lat: number;     // Latitude
-  lng: number;     // Longitude
-  m: MenuItem[];   // Top menus (up to 12)
-  mt: number;      // Total menu count
+  i: number;         // ID
+  co: CountryCode;   // Country
+  n: string;         // Name
+  c: string;         // Raw category / cuisine
+  mc: string;        // Macro category
+  r: string;         // Region
+  sr: string;        // Subregion
+  a: string;         // Address
+  lat: number;       // Latitude
+  lng: number;       // Longitude
+  m?: MenuItem[];    // Top menus
+  mt?: number;       // Total menu count
+  b?: string;        // Prestige / rating badge (Tabelog, Michelin, etc.)
+  u?: string;        // External URL (e.g. Tabelog page)
 }
 
 export interface MapBounds {
@@ -24,32 +31,49 @@ export interface MapBounds {
   east: number;
 }
 
-export type BasemapStyle = 'dark' | 'voyager' | 'osm';
+export type BasemapStyle = 'osm' | 'dark' | 'voyager';
 
-export const REGIONS = [
-  '전체',
-  '서울',
-  '경기·인천',
-  '경상·부산·대구·울산',
-  '전라·광주',
-  '충청·대전·세종',
-  '강원',
-  '제주',
-] as const;
+export interface CountryInfo {
+  code: CountryFilter;
+  flag: string;
+  label: string;
+  center: [number, number];
+  zoom: number;
+}
+
+export const COUNTRIES: CountryInfo[] = [
+  { code: 'ALL', flag: '🌏', label: '전체', center: [31.8, 129.5], zoom: 5 },
+  { code: 'KR', flag: '🇰🇷', label: '대한민국', center: [36.45, 127.85], zoom: 7 },
+  { code: 'JP', flag: '🇯🇵', label: '일본', center: [36.2, 138.0], zoom: 6 },
+  { code: 'HK', flag: '🇭🇰', label: '홍콩', center: [22.302, 114.172], zoom: 12 },
+  { code: 'TW', flag: '🇹🇼', label: '대만', center: [23.85, 121.0], zoom: 7 },
+];
+
+export const COUNTRY_BY_CODE: Record<CountryFilter, CountryInfo> = Object.fromEntries(
+  COUNTRIES.map((c) => [c.code, c]),
+) as Record<CountryFilter, CountryInfo>;
+
+export const BADGE_FILTERS: { id: BadgeFilter; label: string }[] = [
+  { id: 'ALL', label: '전체 등급' },
+  { id: 'TABELOG', label: '🏆 타베로그 백명점·4.0+' },
+  { id: 'MICHELIN', label: '⭐ 미슐랭 가이드' },
+  { id: 'MYMAP', label: '📌 도쿄·오사카 추천' },
+  { id: 'LOCAL', label: '🔥 홍콩·대만 로컬 명소' },
+];
 
 export const MACRO_CATEGORIES = [
   '전체',
-  '고기·구이',
   '한식',
-  '해물·회',
   '일식·초밥',
-  '국밥·탕·찜',
   '중식',
+  '고기·구이',
   '면·만두',
+  '해물·회',
+  '국밥·탕·찜',
   '분식',
-  '치킨·주점',
   '양식·세계음식',
   '카페·디저트',
+  '치킨·주점',
   '기타',
 ] as const;
 

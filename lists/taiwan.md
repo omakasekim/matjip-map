@@ -1,0 +1,474 @@
+# 🍽️ 🇹🇼 대만 맛집 리스트
+
+총 **457곳** · **식당 이름** — 무슨 음식 파는지 · `위치`
+
+> 🗺️ **지도에서 보기:** https://aetherx86.github.io/matjip-map/?country=TW
+
+## 📍 타이베이 (175곳)
+- **Le Palais** [미슐랭 3스타] — Cantonese · `17F, Palais de Chine Hotel, 3, Section 1, Chengde Road, Datong District, Taipei, 103, Taiwan Region`
+- **Taïrroir** [미슐랭 3스타] — Taiwanese contemporary · `6F, 299 Lequn 3rd Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **A** [미슐랭 2스타] — French Contemporary · `4F, Building 2, Diamond Towers, Shin Kong Mitsukoshi, 282, Section 3, Zhongxiao East Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Eika** [미슐랭 2스타] — Japanese Contemporary · `58 Minle Street, Datong District, Taipei, Taiwan Region`
+- **L'Atelier de Joël Robuchon** [미슐랭 2스타] — French Contemporary · `5F, Bellavita, 28 Songren Road, Xinyi District, Taipei, 110, Taiwan Region`
+- **Mizue** [미슐랭 2스타] — Japanese · `2F, Capella, 139 Dunhua North Road, Songshan District, Taipei, 105021, Taiwan Region`
+- **Molino de Urdániz** [미슐랭 2스타] — Spanish Contemporary · `GF, Hotel MVSA, 61, Section 1, Jianguo North Road, Zhongshan District, Taipei, 10491, Taiwan Region`
+- **Mudan** [미슐랭 2스타] — Japanese Tempura · `17, Lane 52, Siwei Road, Da'an District, Taipei, 106, Taiwan Region`
+- **NOBUO** [미슐랭 2스타] — Contemporary · `8 Tai'an Street, Zhongzheng District, Taipei, Taiwan Region`
+- **Yu Kapo** [미슐랭 2스타] — Japanese · `9-1 Sanmin Road, Songshan District, Taipei, Taiwan Region`
+- **logy** [미슐랭 2스타] — Asian Contemporary · `39, Lane 258, Ruiguang Road, Neihu District, Taipei, Taiwan Region`
+- **A Cut** [미슐랭 1스타] — Steakhouse · `2F, Fubon Liaoning Building, 177 Liaoning Street, Zhongshan District, Taipei, 104105, Taiwan Region`
+- **Ad Astra** [미슐랭 1스타] — European Contemporary · `23, Lane 45, Section 2, Zhongshan North Road, Zhongshan District, Taipei, 10450, Taiwan Region`
+- **Ban Bo** [미슐랭 1스타] — Taiwanese contemporary · `38, Lane 265, Lequn 2nd Road, Zhongshan District, Taipei, Taiwan Region`
+- **Chuan Ya** [미슐랭 1스타] — Sichuan · `46F, Breeze Nan Shan, 17 Songzhi Road, Xinyi District, Taipei, Taiwan Region`
+- **Circum-** [미슐랭 1스타] — Creative · `B2, Regent Hotel, 3, Lane 39, Section 2, Zhongshan North Road, Zhongshan District, Taipei, Taiwan Region`
+- **FRASSI** [미슐랭 1스타] — Italian Contemporary · `1F, 299 Lequn 3rd Road, Zhongshan District, Taipei, 203, Taiwan Region`
+- **Fujin Tree Taiwanese Cuisine & Champagne (Songshan)** [미슐랭 1스타] — Taiwanese · `17, Lane 199, Dunhua North Road, Songshan District, Taipei, Taiwan Region`
+- **Golden Formosa** [미슐랭 1스타] — Taiwanese · `101 Tianmu East Road, Shilin District, Taipei, 111, Taiwan Region`
+- **Hosu** [미슐랭 1스타] — Taiwanese contemporary · `17, Alley 20, Lane 300, Section 4, Ren’ai Road, Da’an District, Taipei, Taiwan Region`
+- **INITA** [미슐랭 1스타] — Italian Contemporary · `1, Alley 52, Lane 12, Section 3, Bade Road, Songshan District, Taipei, Taiwan Region`
+- **Impromptu by Paul Lee** [미슐랭 1스타] — Innovative · `B1, Regent Hotel, 3, Lane 39, Section 2, Zhongshan North Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Ken Anhe** [미슐랭 1스타] — Japanese · `4, Lane 127, Section 1, Anhe Road, Da'an District, Taipei, 10681, Taiwan Region`
+- **Kiku** [미슐랭 1스타] — Japanese · `4, Lane 135, Section 1, Anhe Road, Da'an District, Taipei, Taiwan Region`
+- **Kitcho** [미슐랭 1스타] — Sushi · `48, Lane 181, Section 4, Zhongxiao East Road, Da'an District, Taipei, 106, Taiwan Region`
+- **La Vie by Thomas Bühner** [미슐랭 1스타] — European Contemporary · `1F, Noke Mall, 200 Lequn 3rd Road, Zhongshan District, Taipei, Taiwan Region`
+- **Ming Fu** [미슐랭 1스타] — Taiwanese · `18-1, Lane 137, Section 2, Zhongshan North Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Mipon** [미슐랭 1스타] — Taiwanese · `3F, Grand Mayfull Hotel, 55 Lequn 2nd Road, Zhongshan District, Taipei, 10462, Taiwan Region`
+- **Motoichi** [미슐랭 1스타] — Japanese Tempura · `11, Alley 27, Lane 216, Section 4, Zhongxiao East Road, Da’an District, Taipei, Taiwan Region`
+- **Mountain and Sea House** [미슐랭 1스타] — Taiwanese · `94, Section 2, Ren'ai Road, Zhongzheng District, Taipei, 100, Taiwan Region`
+- **Mume** [미슐랭 1스타] — European Contemporary · `28 Siwei Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Restaurant 12** [미슐랭 1스타] — Modern Cuisine · `12 Jianye Road, Shilin District, Taipei, Taiwan Region`
+- **SENS** [미슐랭 1스타] — French Contemporary · `12, Lane 127, Section 3, Minsheng East Road, Songshan District, Taipei, 105, Taiwan Region`
+- **Shin Yeh Taiwanese Signature** [미슐랭 1스타] — Taiwanese · `Marriott Midtown, 199 Lequn 2nd Road, Zhongshan District, Taipei, Taiwan Region`
+- **Silks House** [미슐랭 1스타] — Cantonese · `3F, Regent Hotel, 3, Lane 39, Section 2, Zhongshan North Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Sushi Akira** [미슐랭 1스타] — Sushi · `6-3, Lane 25, Shuangcheng Street, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Sushi Kajin** [미슐랭 1스타] — Sushi · `28 Jilin Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Sushi Ryu** [미슐랭 1스타] — Sushi · `60-5, Section 2, Xinsheng North Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Sushiyoshi** [미슐랭 1스타] — Japanese · `12, Alley 19, Lane 216, Section 4, Zhongxiao East Road, Da'an District, Taipei, 106, Taiwan Region`
+- **T+T** [미슐랭 1스타] — Asian Contemporary · `11, Lane 165, Dunhua North Road, Songshan District, Taipei, Taiwan Region`
+- **The Guest House** [미슐랭 1스타] — Sichuan · `17F, Sheraton Grand Hotel, 12, Section 1, Zhongxiao East Road, Zhongzheng District, Taipei, 100, Taiwan Region`
+- **Tien Hsiang Lo** [미슐랭 1스타] — Hang Zhou · `B1, The Landis, 41, Section 2, Minquan East Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Wok by O'BOND** [미슐랭 1스타] — Creative · `18 Long Jiang Road, Zhongshan District, Taipei, 104099, Taiwan Region`
+- **Ya Ge** [미슐랭 1스타] — Cantonese · `3F, Mandarin Oriental Hotel, 158 Dunhua North Road, Songshan District, Taipei, 105, Taiwan Region`
+- **ZEA** [미슐랭 1스타] — Latin American · `5, Alley 20, Lane 300, Section 4, Ren'ai Road, Da’an District, Taipei, Taiwan Region`
+- **aMaze** [미슐랭 1스타] — Creative · `598 Mingshui Road, Zhongshan District, Taipei, Taiwan Region`
+- **de nuit** [미슐랭 1스타] — Modern Cuisine · `175, Section 4, Xinyi Road, Da'an District, Taipei, Taiwan Region`
+- **Chi Chia Chuang (Changchun Road)** [미슐랭 빕구르망] — Taiwanese · `55 Changchun Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Ching Jiao** [미슐랭 빕구르망] — Small eats · `9, Section 2, Jinan Road, Zhongzheng District, Taipei, Taiwan Region`
+- **Chung Chia Sheng Jian Bao** [미슐랭 빕구르망] — Street Food · `Shilin Night Market, 38 Xiaodong Street, Shilin District, Taipei, Taiwan Region`
+- **Clavius** [미슐랭 빕구르망] — Vegetarian · `120 Fujin Street, Songshan District, Taipei, Taiwan Region`
+- **Da-Qiao-Tou Tube Rice Pudding (Yanping North Road)** [미슐랭 빕구르망] — Small eats · `41, Section 3, Yanping North Road, Datong District, Taipei, Taiwan Region`
+- **Din Tai Fung (Xinyi Road)** [미슐랭 빕구르망] — Shanghainese · `277, Section 2, Xinyi Road, Da'an District, Taipei, 110, Taiwan Region`
+- **HUGH dessert dining** [미슐랭 빕구르망] — Creative · `56, Lane 136, Section 3, Chongqing North Road, Datong District, Taipei, Taiwan Region`
+- **Hang Zhou Xiao Long Bao (Da'an)** [미슐랭 빕구르망] — Dim Sum · `17 & 19, Section 2, Hangzhou South Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Hsiao Cho Chih Chia** [미슐랭 빕구르망] — Taiwanese · `420 Jilin Road, Zhongshan District, Taipei, Taiwan Region`
+- **Hsiung Chi Scallion Pancake** [미슐랭 빕구르망] — Street Food · `Gongguan Night Market, 2, Lane 108, Section 4, Luosifu Road, Zhongzheng District, Taipei, Taiwan Region`
+- **Huang Chi Lu Rou Fan** [미슐랭 빕구르망] — Small eats · `28, Lane 183, Section 2, Zhongshan North Road, Zhongshan District, Taipei, Taiwan Region`
+- **Inn's+ (Shuangcheng Street)** [미슐랭 빕구르망] — Taiwanese · `8, Lane 28, Shuangcheng Street, Zhongshan District, Taipei, Taiwan Region`
+- **Jen Ho Yuan** [미슐랭 빕구르망] — Yunnanese · `2F, 112, Section 2, Zhongshan North Road, Zhongshan District, Taipei, Taiwan Region`
+- **Jin Shang Hsuan** [미슐랭 빕구르망] — Taiwanese · `111, Lane 155, Dunhua North Road, Songshan District, Taipei, Taiwan Region`
+- **Lao Shan Dong Homemade Noodles** [미슐랭 빕구르망] — Noodles · `Shop 15, B1, 70 Xining South Road, Wanhua District, Taipei, 108, Taiwan Region`
+- **Little Tree Food (Da'an Road)** [미슐랭 빕구르망] — Vegetarian · `17, Lane 116, Section 1, Da'an Road, Da'an District, Taipei, Taiwan Region`
+- **Mai Mien Yen Tsai** [미슐랭 빕구르망] — Noodles · `106 Anxi Street, Datong District, Taipei, 103, Taiwan Region`
+- **MoonMoonFood (Qingdao East Road)** [미슐랭 빕구르망] — Taiwanese · `6-2 Qingdao East Road, Zhongzheng District, Taipei, 100, Taiwan Region`
+- **Open Smile** [미슐랭 빕구르망] — Small eats · `441 Zhuangjing Road, Xinyi District, Taipei, Taiwan Region`
+- **Pàng** [미슐랭 빕구르망] — Mexican · `181 Wenchang Street, Da'an District, Taipei, Taiwan Region`
+- **Saffron Fine Indian Cuisine** [미슐랭 빕구르망] — Indian · `38-6 Tianmu East Road, Shilin District, Taipei, 111, Taiwan Region`
+- **Serenity (Zhongzheng)** [미슐랭 빕구르망] — Vegetarian · `1, Lane 1, Zhenjiang Street, Zhongzheng District, Taipei, 100, Taiwan Region`
+- **Sinchao Rice Shoppe** [미슐랭 빕구르망] — Taiwanese · `2F, Breeze Xin Yi, 68, Section 5, Zhongxiao East Road, Xinyi District, Taipei, 110, Taiwan Region`
+- **Soft Power** [미슐랭 빕구르망] — Small eats · `21, Alley 30, Lane 135, Section 2, Minquan East Road, Zhongshan District, Taipei, Taiwan Region`
+- **Su Lai Chuan** [미슐랭 빕구르망] — Small eats · `4, Lane 176, Section 3, Heping West Road, Wanhua District, Taipei, Taiwan Region`
+- **Sung Chu Yuan** [미슐랭 빕구르망] — Taiwanese · `546 Yonggong Road, Shilin District, Taipei, Taiwan Region`
+- **Tableau by Craig Yang** [미슐랭 빕구르망] — Creative · `33, Lane 78, Section 1, Anhe Road, Da'an District, Taipei, Taiwan Region`
+- **Talking Heads** [미슐랭 빕구르망] — Hunanese · `25 Siwei Road, Da'an District, Taipei, Taiwan Region`
+- **Tien Hsia San Chueh** [미슐랭 빕구르망] — Noodles · `3, Lane 27, Section 4, Ren'ai Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Toriaezu Curry** [미슐랭 빕구르망] — Curry · `146 Sanmin Road, Songshan District, Taipei, Taiwan Region`
+- **Tsui Feng Yuan** [미슐랭 빕구르망] — Cantonese · `5, Lane 8, Section 3, Bade Road, Songshan District, Taipei, 105, Taiwan Region`
+- **Unnamed Clay Oven Roll** [미슐랭 빕구르망] — Street Food · `Nanjichang Night Market, Stall 74, Lane 311, Section 2, Zhonghua Road, Zhongzheng District, Taipei, Taiwan Region`
+- **Wang's Broth** [미슐랭 빕구르망] — Small eats · `Huaxi Street Night Market, Stall 153, 17-4 Huaxi Street, Wanhua District, Taipei, Taiwan Region`
+- **Wu Wang Tsai Chi** [미슐랭 빕구르망] — Street Food · `Nanjichang Night Market, 29, Lane 313, Section 2, Zhonghua Road, Zhongzheng District, Taipei, 100, Taiwan Region`
+- **Yi Jia Zi** [미슐랭 빕구르망] — Small eats · `79 Kangding Road, Wanhua District, Taipei, 108, Taiwan Region`
+- **Yu Yu 1969** [미슐랭 빕구르망] — Taiwanese · `48 Liaoning Street, Zhongshan District, Taipei, Taiwan Region`
+- **Yuan Fang Guabao** [미슐랭 빕구르망] — Street Food · `Huaxi Street Night Market, Stall 161, 17-2 Huaxi Street, Wanhua District, Taipei, 108, Taiwan Region`
+- **3927** [미슐랭 셀렉티드] — Taiwanese · `14, Lane 101, Section 4, Zhongxiao East Road, Taipei, Taiwan Region`
+- **85TD** [미슐랭 셀렉티드] — Cantonese · `85F, Taipei 101, 7, Section 5, Xinyi Road, Xinyi District, Taipei, Taiwan Region`
+- **A Cheng Goose (Zhongshan)** [미슐랭 셀렉티드] — Taiwanese · `162 Jilin Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Aleisha** [미슐랭 셀렉티드] — Mediterranean Cuisine · `16, Alley 4, Lane 217, Section 3, Zhongxiao East Road, Da’an District, Taipei, 106080, Taiwan Region`
+- **Antico Forno** [미슐랭 셀렉티드] — Italian · `141 Rui'an Street, Da'an District, Taipei, Taiwan Region`
+- **Baho (Da'an)** [미슐랭 셀렉티드] — Barbecue · `4, Lane 102, Section 1, Anhe Road, Da'an District, Taipei, Taiwan Region`
+- **Bencotto** [미슐랭 셀렉티드] — Italian · `6F, Mandarin Oriental Hotel, 158 Dunhua North Road, Songshan District, Taipei, 105, Taiwan Region`
+- **Brisé** [미슐랭 셀렉티드] — European Contemporary · `8 Lane 92, Section 1, Jianguo North Road, Zhongshan District, Taipei, Taiwan Region`
+- **CEO 1950** [미슐랭 셀렉티드] — European Contemporary · `24, Lane 62, Section 3, Xinsheng North Road, Zhongshan District, Taipei, Taiwan Region`
+- **Chaud Doux** [미슐랭 셀렉티드] — French · `11 Alley 6, Lane 113, Section 3, Minsheng East Road, Songshan District, Taipei, Taiwan Region`
+- **Cheng Jia** [미슐랭 셀렉티드] — Taiwanese · `6, Lane 92, Section 2, Minquan East Road, Zhongshan District, Taipei, Taiwan Region`
+- **Chinese Cuisine** [미슐랭 셀렉티드] — Taiwanese · `Grand View Resort Beitou, 30 Youya Road, Beitou District, Taipei, Taiwan Region`
+- **Chuan Mu Yuan** [미슐랭 셀렉티드] — Dim Sum · `120, Section 2, Chengde Road, Datong District, Taipei, Taiwan Region`
+- **Clover** [미슐랭 셀렉티드] — French Contemporary · `4F, Bellavita, 28 Songren Road, Xinyi District, Taipei, 110, Taiwan Region`
+- **Danny's Steakhouse** [미슐랭 셀렉티드] — Steakhouse · `58 Lequn 3rd Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Dasuke** [미슐랭 셀렉티드] — Japanese · `375-2 Siwei Road, Da'an District, Taipei, 106, Taiwan Region`
+- **EMBERS** [미슐랭 셀렉티드] — Taiwanese contemporary · `24, Lane 122, Section 4, Ren-Ai Road, Da'an District, Taipei, Taiwan Region`
+- **Ephernité** [미슐랭 셀렉티드] — French Contemporary · `233, Section 2, Anhe Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Fon-Cé** [미슐랭 셀렉티드] — Latin American · `15, Lane 233, Section 1, Dunhua South Road, Da'an District, Taipei, Taiwan Region`
+- **Gi Yuan** [미슐랭 셀렉티드] — Sichuan · `324, Section 1, Dunhua South Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Good Friend Cold Noodles** [미슐랭 셀렉티드] — Street Food · `Shilin Night Market, 31 Danan Road, Shilin District, Taipei, Taiwan Region`
+- **Halal Chinese Beef Noodles (Da'an)** [미슐랭 셀렉티드] — Noodles · `1, Alley 7, Lane 137, Yanji Street, Da'an District, Taipei, 106, Taiwan Region`
+- **Hijo** [미슐랭 셀렉티드] — Fish and Seafood · `170, Section 2, Chang'an East Road, Zhongshan District, Taipei, Taiwan Region`
+- **Izmir Turk Kitchen** [미슐랭 셀렉티드] — Turkish · `14, Lane 147, Section 1, Kee Lung Road, Xinyi District, Taipei, Taiwan Region`
+- **JUNTO** [미슐랭 셀렉티드] — Cantonese · `2F, The Blue by Just Inn, 22 Guanqian Road, Zhongzheng District, Taipei, Taiwan Region`
+- **KOICHIRO** [미슐랭 셀렉티드] — Japanese · `5F, 301 Lequn 3rd Road, Zhongshan District, Taipei, Taiwan Region`
+- **KUR** [미슐랭 셀렉티드] — Japanese Contemporary · `6, Lane 109, Section 1, Anhe Road, Da'an District, Taipei, Taiwan Region`
+- **Komboi** [미슐랭 셀렉티드] — Modern Cuisine · `28, Lane 270, Section 1, Dunhua South Road, Da’an District, Taipei, 10685, Taiwan Region`
+- **Kou Gyu Rou** [미슐랭 셀렉티드] — Noodles · `6 Minle Street, Datong District, Taipei, Taiwan Region`
+- **Lin** [미슐랭 셀렉티드] — French Contemporary · `6, Alley 25, Lane 300, Section 4, Ren’ai Road, Da’an District, Taipei, 106, Taiwan Region`
+- **Lin Ju** [미슐랭 셀렉티드] — Cantonese · `100 Dunhua North Road, Shongshan District, Taipei, Taiwan Region`
+- **Lin's Vegetable Lamb Hotpot** [미슐랭 셀렉티드] — Hotpot · `327 Jilin Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **May Snow Hakka Food** [미슐랭 셀렉티드] — Hakkanese · `16, Lane 329, Section 1, Dunhua South Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Mochi Baby** [미슐랭 셀렉티드] — Street Food · `111 Raohe Street, Songshan District, Taipei, Taiwan Region`
+- **Muji Beef Noodles** [미슐랭 셀렉티드] — Noodles · `239 Wuxing Street, Xinyi District, Taipei, 110, Taiwan Region`
+- **N°168 Prime Steakhouse (Zhongshan)** [미슐랭 셀렉티드] — Steakhouse · `4F, Grand Victoria Hotel, 168 Jingye 4th Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **PEI FULL** [미슐랭 셀렉티드] — Jiangzhe · `2F, United Hotel, 200 Guangfu South Road, Da’an District, Taipei, Taiwan Region`
+- **Page (Zhongshan)** [미슐랭 셀렉티드] — International · `4, Alley 20, Lane 595, Bei'an Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Paris 1930 de Hideki Takayama** [미슐랭 셀렉티드] — French Contemporary · `2F, The Landis, 41, Section 2, Minquan East Road, Zhongshan District, Taipei, 104032, Taiwan Region`
+- **Really Good Seafood** [미슐랭 셀렉티드] — Fish and Seafood · `222, Section 1, Fuxing South Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Robin's Teppanyaki** [미슐랭 셀렉티드] — Teppanyaki · `2F, Regent Hotel, 3, Lane 39, Section 2, Zhongshan North Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Rong Ju** [미슐랭 셀렉티드] — Cantonese · `Capella, 139 Dunhua North Road, Songshan District, Taipei, 105021, Taiwan Region`
+- **Rong Rong Yuan** [미슐랭 셀렉티드] — Zhejiang · `2F, 25, Section 4, Xinyi Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Sansan Bistro** [미슐랭 셀렉티드] — Sichuan · `170, Section 2, Dunhua South Road, Da'an District, Taipei, 106033, Taiwan Region`
+- **Sasa** [미슐랭 셀렉티드] — Sushi · `6, Lane 42, Section 2, Zhongshan North Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Sate House** [미슐랭 셀렉티드] — Indonesian · `15 Leli Road, Da'an District, Taipei, Taiwan Region`
+- **Set.** [미슐랭 셀렉티드] — Creative · `110, Section 2, Chengde Road, Datong District, Taipei, 103, Taiwan Region`
+- **Shih Chia Big Rice Ball** [미슐랭 셀렉티드] — Small eats · `58, Section 3, Yanping North Road, Datong District, Taipei, Taiwan Region`
+- **Shin Yeh Taiwanese Cuisine** [미슐랭 셀렉티드] — Taiwanese · `34-1 Shuangcheng Street, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Shin Yeh Taiwanese Delight (Nangang)** [미슐랭 셀렉티드] — Taiwanese · `Block A, CTBC Financial Park, 166 Jingmao 2nd Road, Nangang District, Taipei, 115, Taiwan Region`
+- **Shing-Peng-Lai (Zhongshan North Road)** [미슐랭 셀렉티드] — Taiwanese · `55, Section 7, Zhongshan North Road, Shilin District, Taipei, 111, Taiwan Region`
+- **Sushi Kaori** [미슐랭 셀렉티드] — Sushi · `10, Lane 458, Linsen North Road, Zhongshan District, Taipei, Taiwan Region`
+- **Sushi Nomura** [미슐랭 셀렉티드] — Sushi · `4, Alley 19, Lane 300, Section 4, Ren'ai Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Sushi Touryuumon** [미슐랭 셀렉티드] — Japanese · `16, Alley 27, Lane 216, Zhongxiao East Road, Da'an District, Taipei, Taiwan Region`
+- **Tajimaya Shabu Shabu** [미슐랭 셀렉티드] — Shabu-shabu · `5F, THE ARCADE, 166 Dunhua North Road, Songshan District, Taipei, 105, Taiwan Region`
+- **Tempura Sugimura** [미슐랭 셀렉티드] — Japanese Tempura · `2F, Marriott Midtown,199 Lequn 2nd Road, Zhongshan District, Taipei, Taiwan Region`
+- **Thai & Thai** [미슐랭 셀렉티드] — Thai · `5F, THE ARCADE, 158 Dunhua North Road, Songshan District, Taipei, 105, Taiwan Region`
+- **The Dragon** [미슐랭 셀렉티드] — Cantonese · `B1, Sheraton Grand Hotel, 12, Section 1, Zhongxiao East Road, Zhongzheng District, Taipei, 100, Taiwan Region`
+- **Tsuki Yo Iwa** [미슐랭 셀렉티드] — Japanese · `9, Lane 25, Shuangcheng Street, Zhongshan District, Taipei, Taiwan Region`
+- **Tutto Bello** [미슐랭 셀렉티드] — Italian Contemporary · `15, Lane 25, Shuangcheng Street, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Uke** [미슐랭 셀렉티드] — Japanese · `37, Lane 78, Section 1, Anhe Road, Da'an District, Taipei, Taiwan Region`
+- **Uosho** [미슐랭 셀렉티드] — Japanese · `24, Lane 83, Section 1, Zhongshan North Road, Zhongshan District, Taipei, Taiwan Region`
+- **Vanne Yakiniku** [미슐랭 셀렉티드] — Barbecue · `2F, 235, Section 1, Dunhua South Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Wamaki** [미슐랭 셀렉티드] — Japanese · `1, Lane 36, Section 2, Changan East Road, Zhongshan District, Taipei, 104, Taiwan Region`
+- **Xiang Se** [미슐랭 셀렉티드] — European Contemporary · `1-2 Hukou Street, Zhongzheng District, Taipei, 100, Taiwan Region`
+- **Xiao Ping Kitchen (Zhongshan)** [미슐랭 셀렉티드] — Taiwanese · `130 Zhongyuan Road, Zhongshan District, Taipei, Taiwan Region`
+- **Yangming Spring (Shilin)** [미슐랭 셀렉티드] — Vegetarian · `119-1 Jingshan Road, Shilin District, Taipei, Taiwan Region`
+- **Yuan Huan Pien Oyster Egg Omelette** [미슐랭 셀렉티드] — Street Food · `Ningxia Night Market, 46 Ningxia Road, Datong District, Taipei, Taiwan Region`
+- **Yuu** [미슐랭 셀렉티드] — Creative · `15, Alley 33, Lane 216, Section 4, Zhongxiao East Road, Da'an District, Taipei, 106, Taiwan Region`
+- **Zaap** [미슐랭 셀렉티드] — Thai · `6, Lane 345, Wuxing Street, Xinyi District, Taipei, 110, Taiwan Region`
+- **fumée** [미슐랭 셀렉티드] — Yakitori · `B3, Regent Hotel, 3, Lane 39, Section 2, Zhongshan North Road, Zhongshan District, Taipei, Taiwan Region`
+- **ÉCRU** [미슐랭 셀렉티드] — Creative · `19, Lane 177, Section 1, Dunhua South Road, Da’an District, Taipei, Taiwan Region`
+- **푸항 또우장 (阜杭豆漿 Fuhang Soy Milk)** [대만 로컬 명소] — 대만식 아침 · 또우장·요우티아오 (시엔또우장(짭짤한 두유), 허우빙지아단(화덕빵+계란), 요우티아오) · `2F, No. 108, Sec. 1, Zhongxiao E. Rd, Zhongzheng, Taipei`
+- **융캉 우육면 (永康牛肉麵 Yongkang Beef Noodle)** [대만 로컬 명소] — 대만 우육면 (홍샤오 반근반육 우육면, 칭둔 우육면, 펀정파이구(돼지갈비찜)) · `No. 17, Ln. 31, Sec. 2, Jinshan S. Rd, Da'an, Taipei`
+- **류산둥 우육면 (劉山東牛肉麵 Liu Shandong)** [대만 로컬 명소] — 대만 맑은 우육면 (칭둔(맑은) 우육면, 홍샤오 우육면, 더우츠(검은콩 소스)) · `No. 2, Ln. 14, Sec. 1, Kaifeng St, Zhongzheng, Taipei`
+- **진펑 루러우판 (金峰魯肉飯 Jin Feng)** [대만 로컬 명소] — 대만 루러우판(돼지고기 덮밥) (루러우판, 콩러우판, 조개닭고기탕) · `No. 10, Sec. 1, Roosevelt Rd, Zhongzheng, Taipei`
+- **린둥팡 우육면 (林東芳牛肉麵 Lin Dong Fang)** [대만 로컬 명소] — 대만 한방 우육면 (반근반육 우육면, 화간(두부 조림)) · `No. 322, Sec. 2, Bade Rd, Zhongshan, Taipei`
+- **솽위에 식품사 (雙月食品社 Shuang Yue)** [대만 로컬 명소] — 대만 보양 닭고기탕·국수 (조개 닭고기탕, 참기름 닭고기탕, 아이헌 비빔면) · `No. 6-2, Qingdao E. Rd, Zhongzheng, Taipei`
+- **아종면선 (阿宗麵線 Ay-Chung Flour-Rice Noodle)** [대만 로컬 명소] — 시먼딩 곱창국수 (대만 곱창국수 (소/대)) · `No. 8-1, Emei St, Wanhua, Taipei`
+- **스무시 하우스 (思慕昔 Smoothie House)** [대만 로컬 명소] — 망고 빙수 전문점 (슈퍼 생망고 눈꽃빙수, 타로볼 망고빙수) · `No. 15, Yongkang St, Da'an, Taipei`
+- **톈톈리 (天天利美食坊 Tian Tian Li)** [대만 로컬 명소] — 시먼딩 루러우판·굴전 (반숙계란 루러우판, 굴전(어아젠), 무떡(뤄보가오)) · `No. 1, Ln. 32, Hanzhong St, Wanhua, Taipei`
+- **라오허제 푸저우 스주 후추빵 (福州世祖胡椒餅)** [대만 로컬 명소] — 야시장 화덕 후추빵 (화덕 후추빵(후자오빙)) · `No. 249, Raohe St, Songshan, Taipei`
+- **삼미식당 (三味食堂 San Wei)** [대만 로컬 명소] — 대왕 연어초밥 (대왕 연어초밥, 닭꼬치, 연어뱃살) · `No. 116, Sec. 2, Guiyang St, Wanhua, Taipei`
+- **키키 레스토랑 옌지점 (KiKi Restaurant)** [대만 로컬 명소] — 사천식 대만 요리 (창잉터우(부추 돼지고기 볶음), 라오피넌러우(계란두부 튀김), 매운 도미찜) · `No. 28, Ln. 47, Guangfu S. Rd, Da'an, Taipei`
+- **마라훠궈 시먼점 (馬辣頂級麻辣鴛鴦火鍋)** [대만 로컬 명소] — 대만 마라 훠궈 뷔페 (마라+백탕 2색 훠궈, 하겐다즈 무제한) · `2F, No. 157, Xining S. Rd, Wanhua, Taipei`
+- **딘타이펑 타이베이 101점 (鼎泰豐 101)** [대만 로컬 명소] — 샤오롱바오 전문점 (샤오롱바오, 트러플 샤오롱바오, 새우 계란볶음밥 외 1종) · `B1, No. 45, Shifu Rd, Xinyi, Taipei`
+- **행복당 시먼점 (幸福堂 Xing Fu Tang)** [대만 로컬 명소] — 흑당 버블티 (흑당 보바 밀크, 망고 스무디) · `No. 101, Hanzhong St, Wanhua, Taipei`
+- **춘수당 중정기념당점 (春水堂 Chun Shui Tang)** [대만 로컬 명소] — 버블티 원조 · 쿵푸면 (원조 펄 밀크티, 쿵푸면, 무떡) · `No. 21-1, Zhongshan S. Rd, Zhongzheng, Taipei`
+- **치아더 베이커리 (佳德鳳梨酥 Chia Te)** [대만 로컬 명소] — 베이커리 · 펑리수·누가크래커 (오리지널 펑리수, 크랜베리 펑리수, 누가크래커) · `No. 88, Sec. 5, Nanjing E. Rd, Songshan, Taipei`
+- **써니힐즈 민성공원점 (微熱山丘 SunnyHills)** [대만 로컬 명소] — 베이커리 · 토종 파인애플 펑리수 (파인애플 펑리수, 애플 케이크) · `No. 1, Aly. 4, Ln. 36, Sec. 5, Minsheng E. Rd, Songshan, Taipei`
+- **항저우 샤오롱바오 본점 (杭州小籠湯包)** [대만 로컬 명소] — 가성비 샤오롱바오 (샤오롱탕바오, 수세미 새우 샤오롱바오, 김치 만두) · `No. 19, Sec. 2, Hangzhou S. Rd, Da'an, Taipei`
+
+## 📍 타이중 (64곳)
+- **JL STUDIO** [미슐랭 3스타] — Singaporean · `59, Cunzhong Street, West District, Taichung, Taiwan Region`
+- **L'Atelier par Yao** [미슐랭 1스타] — French Contemporary · `2F, 68 Xinfu 16th Street, Taiping District, Taichung, 411, Taiwan Region`
+- **Oretachi No Nikuya** [미슐랭 1스타] — Barbecue · `194-1 Gongyi Road, West District, Taichung, 403, Taiwan Region`
+- **SHINEYU** [미슐랭 1스타] — Cantonese · `88, Section 1, Huilai Road, Xitun District, Taichung, Taiwan Region`
+- **Sur-** [미슐랭 1스타] — Taiwanese contemporary · `3F, 29 Zhongshan Road, Central District, Taichung, 400, Taiwan Region`
+- **YUENJI** [미슐랭 1스타] — Taiwanese · `5 Anhe East Road, Xitun District, Taichung, 407022, Taiwan Region`
+- **A Kun Mian** [미슐랭 빕구르망] — Noodles · `142 Pingdeng Street, Central District, Taichung, 400, Taiwan Region`
+- **Ajisai** [미슐랭 빕구르망] — Noodles · `102 Zhongxing Street, West District, Taichung, 403, Taiwan Region`
+- **Chin Chih Yuan (Central)** [미슐랭 빕구르망] — Taiwanese · `170 Chenggong Road, Central District, Taichung, 400, Taiwan Region`
+- **Don Moo** [미슐랭 빕구르망] — Small eats · `317 Yingcai Road, North District, Taichung, Taiwan Region`
+- **Feng Chi Goose** [미슐랭 빕구르망] — Taiwanese · `170 Pingxi Road, Shalu District, Taichung, Taiwan Region`
+- **Fu Din Wang (Central)** [미슐랭 빕구르망] — Taiwanese · `560, Section 1, Taiwan Boulevard, Central District, Taichung, 400, Taiwan Region`
+- **Fu Juang Yuan** [미슐랭 빕구르망] — Taiwanese · `203, Section 1, Meicun Road, West District, Taichung, 403, Taiwan Region`
+- **Fu Kuei Ting** [미슐랭 빕구르망] — Taiwanese · `31, Lane 18, Section 2, Sanmin Road, Central District, Taichung, 400, Taiwan Region`
+- **House of Dawn** [미슐랭 빕구르망] — Vegetarian · `104 Dadun 18th Street, Xitun District, Taichung, Taiwan Region`
+- **Ke Kou Beef Noodles** [미슐랭 빕구르망] — Noodles · `911 Dadun Road, Xitun District, Taichung, 407, Taiwan Region`
+- **Kung Fu Shanghai Fish Ball** [미슐랭 빕구르망] — Small eats · `380 Zhongmei Street, West District, Taichung, Taiwan Region`
+- **Küisine (West)** [미슐랭 빕구르망] — Asian · `1, Lane 24, Mofan Street, West District, Taichung, Taiwan Region`
+- **Lao Shih Kuan Noodles** [미슐랭 빕구르망] — Noodles · `81-12 Zhennan Street, Qingshui District, Taichung, 406, Taiwan Region`
+- **Li Xiao Lou** [미슐랭 빕구르망] — Taiwanese · `50, Lane 293, Section 2, Xitun Road, Xitun District, Taichung, Taiwan Region`
+- **Lou's (Nantun)** [미슐랭 빕구르망] — Taiwanese · `65, Section 3, Xiangshang Road, Nantun District, Taichung, Taiwan Region`
+- **Moon Pavilion** [미슐랭 빕구르망] — Taiwanese · `2F, Miyahara, 20 Zhongshan Road, Central District, Taichung, Taiwan Region`
+- **Night School Braised Pork Rice** [미슐랭 빕구르망] — Small eats · `109 Jingcheng Road, West District, Taichung, Taiwan Region`
+- **Niou Jia Juang** [미슐랭 빕구르망] — Hakkanese · `19 Xinfeng Street, Dongshi District, Taichung, Taiwan Region`
+- **No Name Noodles** [미슐랭 빕구르망] — Noodles · `69 Shifu Road, Central District, Taichung, 400, Taiwan Region`
+- **Peng Cheng Tang** [미슐랭 빕구르망] — Taiwanese · `377 Yichang Road, Taiping District, Taichung, 411, Taiwan Region`
+- **Shanghai Food (Nantun)** [미슐랭 빕구르망] — Dim Sum · `537, Section 2, Gongyi Road, Nantun District, Taichung, 408, Taiwan Region`
+- **Shin Yuan (West)** [미슐랭 빕구르망] — Taiwanese · `106 Minsheng North Road, West District, Taichung, 403, Taiwan Region`
+- **Taichung Meatball** [미슐랭 빕구르망] — Small eats · `529, Section 3, Fuxing Road, South District, Taichung, 402, Taiwan Region`
+- **Chef Ah-Hsi's Old Time Restaurant** [미슐랭 셀렉티드] — Taiwanese · `706, Section 2, Zhongqing Road, Beitun District, Taichung, Taiwan Region`
+- **Chien Wei Seafood** [미슐랭 셀렉티드] — Taiwanese · `326-3, Section 1, Wenxin South 5th Road, Nantun District, Taichung, 408, Taiwan Region`
+- **Dongyin Fisherman** [미슐랭 셀렉티드] — Fish and Seafood · `96-2, Section. 1, Xiangshang Road, West District, Taichung, Taiwan Region`
+- **FIRNS** [미슐랭 셀렉티드] — Creative · `19, Lane 50, Jingcheng Road, Xitun District, Taichung, Taiwan Region`
+- **Fleur de Sel** [미슐랭 셀렉티드] — French Contemporary · `581-1 Shizheng Road, Xitun District, Taichung, 407, Taiwan Region`
+- **Forchetta** [미슐랭 셀렉티드] — European Contemporary · `2F, 36 Huizhong 7th Street, Xitun District, Taichung, 407, Taiwan Region`
+- **Hibiki Seafood** [미슐랭 셀렉티드] — Seafood · `356 Shizheng North 2nd Road, Xitun District, Taichung, 407, Taiwan Region`
+- **Hui Chung** [미슐랭 셀렉티드] — Vegetarian · `69 Fuyuan Street, Xitun District, Taichung, Taiwan Region`
+- **Inflorescence** [미슐랭 셀렉티드] — Japanese · `111, Section 1, Zhongxingling Street, Xinshe District, Taichung, Taiwan Region`
+- **Isagi** [미슐랭 셀렉티드] — Japanese · `29 Cunzhong Street, West District, Taichung, 403, Taiwan Region`
+- **Ji Zai Ten** [미슐랭 셀렉티드] — Vegetarian · `8 Lane 194, Xinhe Street, South District, Taichung, Taiwan Region`
+- **KR Prime Steak** [미슐랭 셀렉티드] — Steakhouse · `52 Shizheng North 2nd Road, Xitun District, Taichung, 407, Taiwan Region`
+- **Le Plein** [미슐랭 셀렉티드] — Taiwanese contemporary · `3, Alley 39, Cunzhong Street, West District, Taichung, Taiwan Region`
+- **Master of Mushroom (Xinshe)** [미슐랭 셀렉티드] — Taiwanese · `287 Xiezhong Street, Xinshe District, Taichung, 426, Taiwan Region`
+- **Meidz Seafood** [미슐랭 셀렉티드] — Fish and Seafood · `473-2 Zhongshan Road, Shalu District, Taichung, 433, Taiwan Region`
+- **Ming Juan Lou** [미슐랭 셀렉티드] — Cantonese · `2F, InterContinental Hotel, 77 Guanqian Road, West District, Taichung, 40353, Taiwan Region`
+- **Moment in Beijing** [미슐랭 셀렉티드] — Beijing Cuisine · `57 Wuquan 7th Street, West District, Taichung, 403, Taiwan Region`
+- **Munchi** [미슐랭 셀렉티드] — Modern Cuisine · `37 Lane 52, Section 1, Meicun Road, West District, Taichung, Taiwan Region`
+- **NIKU RYOURI FUKU** [미슐랭 셀렉티드] — Creative · `145 Xiangshang North Road, West District, Taichung, Taiwan Region`
+- **Orient Dragon** [미슐랭 셀렉티드] — Taiwanese · `271-1, Section 2, Gongyi Road, Nantun District, Taichung, 408, Taiwan Region`
+- **Rong Cuisine** [미슐랭 셀렉티드] — Asian · `10-2, Lane 17, Section 4, Fuxing Road, East District, Taichung, Taiwan Region`
+- **Saka** [미슐랭 셀렉티드] — Taiwanese · `7, Alley 9, Zhongshan Road, Daya District, Taichung, Taiwan Region`
+- **Shoal Cuisine** [미슐랭 셀렉티드] — Taiwanese · `417 Dehua Street, North District, Taichung, Taiwan Region`
+- **Sushi Noru** [미슐랭 셀렉티드] — Japanese · `300 Dadun 12th Street, Nantun District, Taichung, Taiwan Region`
+- **Torien Yakitori** [미슐랭 셀렉티드] — Japanese · `48 Zhongming South Road, West District, Taichung, Taiwan Region`
+- **Tu Pang** [미슐랭 셀렉티드] — European Contemporary · `12, Alley 17, Section 4, Fuxing Road, East District, Taichung, 401, Taiwan Region`
+- **UNA-VERSE** [미슐랭 셀렉티드] — Creative · `268, Section 2, Wuquan West Road, Nantun District, Taichung, 408, Taiwan Region`
+- **Wen Tao** [미슐랭 셀렉티드] — Taiwanese · `191, Section 3, Taiyuan Road, Beitun District, Taichung, 406, Taiwan Region`
+- **Yuan** [미슐랭 셀렉티드] — Taiwanese contemporary · `35 Dadun 12th Street, West District, Taichung, 408, Taiwan Region`
+- **Yùn: La Cuisine** [미슐랭 셀렉티드] — Taiwanese contemporary · `10-13 Fengle Road, Beitun District, Taichung, Taiwan Region`
+- **enPure** [미슐랭 셀렉티드] — Modern Cuisine · `33, Alley 7, Lane 86, Jiangxing Road, North District, Taichung, Taiwan Region`
+- **huist** [미슐랭 셀렉티드] — Taiwanese contemporary · `3, Lane 22, Shengping Street, West District, Taichung, 403, Taiwan Region`
+- **meatGQ** [미슐랭 셀렉티드] — Steakhouse · `699, Section 4, Yifeng Road, Nantun District, Taichung, 408, Taiwan Region`
+- **zài** [미슐랭 셀렉티드] — European Contemporary · `4 Jingcheng 5th Street, West District, Taichung, Taiwan Region`
+- **궁원안과 (宮原眼科 Miyahara)** [대만 로컬 명소] — 타이중 아이스크림·디저트 (프리미엄 젤라또·토핑, 치즈케이크, 펑리수) · `No. 20, Zhongshan Rd, Central District, Taichung`
+
+## 📍 타이난 (62곳)
+- **Yu Dao** [미슐랭 1스타] — Taiwanese contemporary · `2-1 Lane 119, Yuguang Road, Anping District, Tainan, Taiwan Region`
+- **A Hsing Congee** [미슐랭 빕구르망] — Congee · `289, Section 3, Minzu Road, West Central District, Tainan, Taiwan Region`
+- **A Wen Rice Cake** [미슐랭 빕구르망] — Small eats · `74 Boa-an Road, Central West District, Tainan, Taiwan Region`
+- **A Xing Shi Mu Yu** [미슐랭 빕구르망] — Small eats · `311 Wunsian Road, North District, Tainan, Taiwan Region`
+- **Amei** [미슐랭 빕구르망] — Taiwanese · `98, Section 2, Mincyuan Road, West Central District, Tainan, Taiwan Region`
+- **BAA Wanli Goat** [미슐랭 빕구르망] — Taiwanese · `36 Singnan Street, South District, Tainan, Taiwan Region`
+- **CHAN CHI** [미슐랭 빕구르망] — Taiwanese · `59 Dong'an Road, East District, Tainan, Taiwan Region`
+- **Chang Ying Seafood House** [미슐랭 빕구르망] — Small eats · `484 Cianli, Sanliaowan, Beimen District, Tainan, 727, Taiwan Region`
+- **Cheng Shi** [미슐랭 빕구르망] — Noodles · `12, Lane 702, Section 1, Simen Road, West Central District, Tainan, Taiwan Region`
+- **Dayong Street No Name Congee** [미슐랭 빕구르망] — Congee · `85 Dayong Street, West Central District, Tainan, Taiwan Region`
+- **Eat to Fat** [미슐랭 빕구르망] — Taiwanese · `3, Lane 125, Sinmel Street, West Central District, Tainan, Taiwan Region`
+- **Fu Tai Table Third Generation** [미슐랭 빕구르망] — Small eats · `219, Section 2, Minzu Road, West Central District, Tainan, Taiwan Region`
+- **Hao Nung Chia Migao** [미슐랭 빕구르망] — Small eats · `66, Section 2, Jiankang Road, South District, Tainan, Taiwan Region`
+- **Hsi Lo Tien Beef Soup** [미슐랭 빕구르망] — Small eats · `98 Gongyuan South Road, North District, Tainan, Taiwan Region`
+- **Huang Chia Shrimp Roll** [미슐랭 빕구르망] — Small eats · `268 Sihe Road, Central West District, Tainan, Taiwan Region`
+- **Jai Mi Ba** [미슐랭 빕구르망] — Noodles · `159-1 Bao-an Road, West Central District, Tainan, Taiwan Region`
+- **Kaiyuan Red-cook Spanish Mackerel** [미슐랭 빕구르망] — Small eats · `307 Kaiyuan Road, North District, Tainan, Taiwan Region`
+- **Lien Wu Chiao Lamb Soup** [미슐랭 빕구르망] — Small eats · `361, Jhongjheng Road, Xinhua District, Tainan, Taiwan Region`
+- **Lo Cheng Migao** [미슐랭 빕구르망] — Small eats · `241, Section 2, Minzu Road, West Central District, Tainan, Taiwan Region`
+- **No Name Lamb Soup** [미슐랭 빕구르망] — Small eats · `144, Section 2, Fucian Road, West Central District, Tainan, 700, Taiwan Region`
+- **Po Jen Tang** [미슐랭 빕구르망] — Taiwanese · `27, Lane 300, Section 2, Simen Road, West Central District, Tainan, Taiwan Region`
+- **San Hao Yi Kung Tao Angelica Duck** [미슐랭 빕구르망] — Small eats · `2, Section 1, Fucian Road, Central West District, Tainan, Taiwan Region`
+- **Shang Hao Chih Beef Soup** [미슐랭 빕구르망] — Small eats · `6, Section 1, Beian Road, North District, Tainan, Taiwan Region`
+- **Shian Jeng Shrimp Bawan** [미슐랭 빕구르망] — Small eats · `609 Yunong Road, East District, Tainan, Taiwan Region`
+- **Small Park Danzai Noodles** [미슐랭 빕구르망] — Noodles · `321, Section 2, Simen Road, West Central District, Tainan, Taiwan Region`
+- **Xie Shopkeeper** [미슐랭 빕구르망] — Small eats · `5, Lane 23, Yunhe Road, Anping District, Tainan, Taiwan Region`
+- **Yeh Jia Calamari Rice Noodle Soup** [미슐랭 빕구르망] — Small eats · `142, Section 2, Guohua Street, West Central District, Tainan, Taiwan Region`
+- **Yeh San Duck Thick Soup** [미슐랭 빕구르망] — Small eats · `216 Linsen Road, Section 2, East District, Tainan, Taiwan Region`
+- **Yi Wei Pin** [미슐랭 빕구르망] — Small eats · `Shop 111 & 112, Yong Le Market, 177-179, Section 3, Guohua Street, West Central District, Tainan, Taiwan Region`
+- **Yuan Zai Hui (Guohua Street)** [미슐랭 빕구르망] — Small eats · `99, Section 2, Guohua Street, West Central District, Tainan, Taiwan Region`
+- **Zhu-Ji Dong Tsai Ya** [미슐랭 빕구르망] — Street Food · `47 Jhongshan Road, West Central District, Tainan, Taiwan Region`
+- **A Cun Beef Soup (Baoan Road)** [미슐랭 셀렉티드] — Small eats · `41 Baoan Road, West Central District, Tainan, Taiwan Region`
+- **A Hai Taiwanese Oden** [미슐랭 셀렉티드] — Small eats · `121 Dalin Road, South District, Tainan, Taiwan Region`
+- **A Ming Zhu Xing (Baoan Road)** [미슐랭 셀렉티드] — Small eats · `72 Baoan Road, West Central District, Tainan, Taiwan Region`
+- **A-Yu Beef Shabu Shabu** [미슐랭 셀렉티드] — Hotpot · `733-1 Kunlun Road, Rende District, Tainan, Taiwan Region`
+- **Black-faced Spoonbill Canteen** [미슐랭 셀렉티드] — Fish and Seafood · `17-18, Haipu, Shihfen Village, Cigu District, Tainan, 724, Taiwan Region`
+- **Chuan Chia Congee** [미슐랭 셀렉티드] — Small eats · `410 Qingping Road, Anping District, Tainan, Taiwan Region`
+- **Chuan Tai Hao Milkfish Ball** [미슐랭 셀렉티드] — Small eats · `222, Section 1, Datong Road, West Central District, Tainan, Taiwan Region`
+- **Di Yi Ding** [미슐랭 셀렉티드] — Seafood · `1, Lane 161, Section 2, Dongmen Road, East District, Tainan, Taiwan Region`
+- **Eastern Castle Noodles** [미슐랭 셀렉티드] — Small eats · `235, Section 1, Dongmen Road, East District, Tainan, Taiwan Region`
+- **FUKAI** [미슐랭 셀렉티드] — Modern Cuisine · `2, Lane 512, Dungning Road, East District, Tainan, Taiwan Region`
+- **Feng No Seafood** [미슐랭 셀렉티드] — Fish and Seafood · `146-10 Changshali, Jiangjyun District, Tainan, Taiwan Region`
+- **Good Hunan Cuisine** [미슐랭 셀렉티드] — Hunanese · `203 Wufei Street, West Central District, Tainan, Taiwan Region`
+- **Hara Peko** [미슐랭 셀렉티드] — Modern Cuisine · `13, Lane 81, Section 2, Yongfu Road, West Central, Tainan, Taiwan Region`
+- **Jyu Dim** [미슐랭 셀렉티드] — Dim Sum · `91 Dongsing Road, East District, Tainan, 701, Taiwan Region`
+- **Kaiyuan Road No Name Milkfish** [미슐랭 셀렉티드] — Small eats · `313 Kaiyuan Road, North District, Tainan, Taiwan Region`
+- **L'herbe** [미슐랭 셀렉티드] — European Contemporary · `950, Section 2, Yonghua Road, Anping District, Tainan, Taiwan Region`
+- **Liang Liang Table** [미슐랭 셀렉티드] — European Contemporary · `63, Lane 85, Minde Road, North District, Tainan, Taiwan Region`
+- **Lumière** [미슐랭 셀렉티드] — European Contemporary · `40 Houbi Village, Houbi District, Tainan, Taiwan Region`
+- **Maan** [미슐랭 셀렉티드] — European Contemporary · `23, Lane 372, Section 2, Simen Road, West Central District, Tainan, Taiwan Region`
+- **Mao Su** [미슐랭 셀렉티드] — Vegetarian · `43 Fudong Street, East District, Tainan, Taiwan Region`
+- **Mayu Cocoon** [미슐랭 셀렉티드] — Creative · `6, Lane 206, Section 2, Fucian Road, West Central District, Tainan, Taiwan Region`
+- **Musa** [미슐랭 셀렉티드] — Thai · `14 You'ai Street, West Central District, Tainan, Taiwan Region`
+- **Principe** [미슐랭 셀렉티드] — French Contemporary · `34 Sihua Street, North District, Tainan, Taiwan Region`
+- **Shun Te Beef Soup** [미슐랭 셀렉티드] — Small eats · `59 Mincyuan Road, Syuejia District, Tainan, Taiwan Region`
+- **The Temple-front Eatery** [미슐랭 셀렉티드] — Taiwanese · `86, Section 2, Simen Road, Central West District, Tainan, Taiwan Region`
+- **Tucheng Seafood** [미슐랭 셀렉티드] — Fish and Seafood · `517, Section 6, Anjhong Road, Annan District, Tainan, Taiwan Region`
+- **Wang Jia Smoked Lamb** [미슐랭 셀렉티드] — Taiwanese · `34 Wushulin, Longci District, Tainan, Taiwan Region`
+- **Wenpapa Goose** [미슐랭 셀렉티드] — Small eats · `274, Section 3, Simen Road, North District, Tainan, 70444, Taiwan Region`
+- **Yang Mei Tu Chi** [미슐랭 셀렉티드] — Taiwanese · `1-5, Wanqiu, Nanxi District, Tainan, 715, Taiwan Region`
+- **Zhu Xin Ju** [미슐랭 셀렉티드] — Taiwanese · `69 Sinyi Street, West Central District, Tainan, Taiwan Region`
+- **도소월 본점 (度小月担仔麵 Du Hsiao Yueh)** [대만 로컬 명소] — 타이난 원조 단짜이면 (단짜이면, 새우튀김 롤, 루러우판) · `No. 16, Sec. 2, Zhongzheng Rd, West Central, Tainan`
+
+## 📍 가오슝 (56곳)
+- **GEN** [미슐랭 1스타] — Cantonese · `8 Fusing 4th Road, Cianjhen District, Kaohsiung, Taiwan Region`
+- **HAILI** [미슐랭 1스타] — Modern Cuisine · `2F, 264-1 Chenggong 1st Road, Qianjin District, Kaohsiung, 801, Taiwan Region`
+- **Hābu** [미슐랭 1스타] — Creative · `27 Jhengcin Road, Cianjhen District, Kaohsiung, Taiwan Region`
+- **Nibbon** [미슐랭 1스타] — European Contemporary · `9 Longshuei 2nd Road, Gushan District, Kaohsiung, Taiwan Region`
+- **Sho** [미슐랭 1스타] — Japanese · `2F, 806 Zhonghua 5th Road, Cianjhen District, Kaohsiung, Taiwan Region`
+- **the FRONT HOUSE** [미슐랭 1스타] — Innovative · `132 Sianjheng Road, Lingya District, Kaohsiung, 802, Taiwan Region`
+- **Bei Gang Tsai Rice Tube (Yancheng)** [미슐랭 빕구르망] — Small eats · `166 Hesi Road, Yancheng District, Kaohsiung, Taiwan Region`
+- **Caizong Li** [미슐랭 빕구르망] — Small eats · `159 Chenggong 1st Road, Lingya District, Kaohsiung, 80249, Taiwan Region`
+- **Chao Ming** [미슐랭 빕구르망] — Taiwanese · `53 Zihciang 1st Road, Cianjin District, Kaohsiung, Taiwan Region`
+- **Chun Lan Gua Bao** [미슐랭 빕구르망] — Small eats · `5 Fusing 1st Road, Sinsing District, Kaohsiung, Taiwan Region`
+- **Cianjin Braised Pork Rice** [미슐랭 빕구르망] — Small eats · `26 Datong 2nd Road, Cianjin District, Kaohsiung, Taiwan Region`
+- **Ciao Zai Tou Huang's Braised Pork Rice (Ciaotou)** [미슐랭 빕구르망] — Small eats · `106 Ciaonan Road, Ciaotou District, Kaohsiung, 825, Taiwan Region`
+- **Erge Shih Tang** [미슐랭 빕구르망] — Taiwanese · `145 Cinghai Road, Gushan District, Kaohsiung, Taiwan Region`
+- **Hou Chi Duck Rice** [미슐랭 빕구르망] — Small eats · `201 Zihciang 1st Road, Sanmin District, Kaohsiung, Taiwan Region`
+- **Hsiu Ming** [미슐랭 빕구르망] — Small eats · `41 Yongping Street, Cishan District, Kaohsiung, Taiwan Region`
+- **Hu Dong Beef** [미슐랭 빕구르망] — Taiwanese · `107, Section 1, Zhongshan Road, Hunei District, Kaohsiung, Taiwan Region`
+- **Hung Chi Rice Shop** [미슐랭 빕구르망] — Small eats · `96 Liwun Road, Zuoying District, Kaohsiung, Taiwan Region`
+- **Ibu Kitchen** [미슐랭 빕구르망] — Taiwanese · `629, Section 2, Jhongshan Road, Meinong District, Kaohsiung, Taiwan Region`
+- **Joes (Gangshan)** [미슐랭 빕구르망] — Taiwanese · `111 Hehua Road, Gangshan District, Kaohsiung, 820, Taiwan Region`
+- **Liang Chia Pig Knuckle** [미슐랭 빕구르망] — Small eats · `229 Yangming Road, Sanmin District, Kaohsiung, Taiwan Region`
+- **Liao Chi Migao** [미슐랭 빕구르망] — Small eats · `119 Ciaonan Road, Ciaotou District, Kaohsiung, Taiwan Region`
+- **Mi Yuan Tzu Steamed Glutinous Rice** [미슐랭 빕구르망] — Small eats · `30 Nanhai Street, Sinsing District, Kaohsiung, Taiwan Region`
+- **NIU LAO DA (Zihciang 2nd Road)** [미슐랭 빕구르망] — Taiwanese · `18 Zihciang 2nd Road, Cianjin District, Kaohsiung, Taiwan Region`
+- **Simmer House** [미슐랭 빕구르망] — Taiwanese · `226 Guangsi Road, Cianjhen District, Kaohsiung, Taiwan Region`
+- **Thai Yuan** [미슐랭 빕구르망] — Thai · `53 Lingya 2nd Road, Lingya District, Kaohsiung, Taiwan Region`
+- **Yang Bao Bao (Chaoming Road)** [미슐랭 빕구르망] — Dumplings · `106 Chaoming Road, Nanzih District, Kaohsiung, 814, Taiwan Region`
+- **Yung Yen** [미슐랭 빕구르망] — Taiwanese · `528 Chenggong 1st Road, Cianjin District, Kaohsiung, Taiwan Region`
+- **A Fung's Harmony Cuisine** [미슐랭 셀렉티드] — Taiwanese · `63 Jiangdu Street, Lingya District, Kaohsiung, 802, Taiwan Region`
+- **Anchovy** [미슐랭 셀렉티드] — European Contemporary · `116 Linsen 3rd Road, Cianjhen Distrist, Kaohsiung, 806001, Taiwan Region`
+- **Apis Grill** [미슐랭 셀렉티드] — Barbecue · `80 Baoyang East Street, Sanmin District, Kaohsiung, Taiwan Region`
+- **Bo Home** [미슐랭 셀렉티드] — Taiwanese · `183-1, Cingnian 1st Road, Lingya District, Kaohsiung, Taiwan Region`
+- **CRATAIN** [미슐랭 셀렉티드] — European Contemporary · `306 Changsheng Road, Gushan District, Kaohsiung, Taiwan Region`
+- **Chang Sheng 29** [미슐랭 셀렉티드] — Taiwanese · `3 Hexi Road, Yancheng District, Kaohsiung, Taiwan Region`
+- **Cheng Tsung Duck Rice** [미슐랭 셀렉티드] — Small eats · `245 Yucheng Road, Zuoying District, Kaohsiung, Taiwan Region`
+- **Cheng's Noodles** [미슐랭 셀렉티드] — Noodles · `5, Lane 201, Sinle Street, Yancheng District, Kaohsiung, 803, Taiwan Region`
+- **Cho** [미슐랭 셀렉티드] — Modern Cuisine · `2F, YUIMOM Residence, 815 Jiouru 1st Road, Sanmin District, Kaohsiung, Taiwan Region`
+- **Crab's House** [미슐랭 셀렉티드] — Seafood · `93 Minsheng 1st Road, Sinsing District, Kaohsiung, Taiwan Region`
+- **Good Crab House** [미슐랭 셀렉티드] — Seafood · `696 Jiangong Road, Sanmin District, Kaohsiung, Taiwan Region`
+- **J Parc** [미슐랭 셀렉티드] — Creative · `1 Dexing Street, Sanmin District, Kaohsiung, 80751, Taiwan Region`
+- **Jui Cuisine** [미슐랭 셀렉티드] — Creative · `117 Sinle Street, Yancheng District, Kaohsiung, Taiwan Region`
+- **Kuca Seafood** [미슐랭 셀렉티드] — Fish and Seafood · `55 Dewei Street, Zuoying District, Kaohsiung, Taiwan Region`
+- **Li.nu** [미슐랭 셀렉티드] — Creative · `802, Zhonghua 5th Road, Cianjhen District, Kaohsiung, Taiwan Region`
+- **MU** [미슐랭 셀렉티드] — Innovative · `128 Fuheng 1st Road, Sinsing District, Kaohsiung, Taiwan Region`
+- **Mai Yen Shun** [미슐랭 셀렉티드] — Taiwanese · `173 Cinghai Road, Gushan District, Kaohsiung, Taiwan Region`
+- **Mei Liang Jia** [미슐랭 셀렉티드] — Small eats · `168 Dalian Street, Sanmin District, Kaohsiung, Taiwan Region`
+- **Old New Taiwanese Cuisine (Jiuru 2nd Road)** [미슐랭 셀렉티드] — Taiwanese · `227 Jiuru 2nd Road, Sanmin District, Kaohsiung, Taiwan Region`
+- **Paul's Canteen** [미슐랭 셀렉티드] — Taiwanese · `162 Sihwei 3rd Road, Linya District, Kaohsiung, Taiwan Region`
+- **Sushi Mikoshi** [미슐랭 셀렉티드] — Japanese · `13 Wunlong Road, Fongshan District, Kaohsiung, Taiwan Region`
+- **Syan Syang** [미슐랭 셀렉티드] — Taiwanese · `75-1 Wenhua Road, Jiaxian District, Kaohsiung, Taiwan Region`
+- **Temperature Studio** [미슐랭 셀렉티드] — Innovative · `50 Gongyuan East Road, Gangshan District, Kaohsiung, Taiwan Region`
+- **The Borage** [미슐랭 셀렉티드] — Vegetarian · `Stall B27, Yancheng First Public Retail Market, 141-7 Lainan Street, Yancheng District, Kaohsiung, Taiwan Region`
+- **Thomas Chien** [미슐랭 셀렉티드] — French Contemporary · `11 Chenggong 2nd Road, Cianjhen District, Kaohsiung, Taiwan Region`
+- **Three Meals (Lingya)** [미슐랭 셀렉티드] — Taiwanese · `167 Jhongsing Street, Lingya District, Kaohsiung, Taiwan Region`
+- **Three Wheels** [미슐랭 셀렉티드] — Small eats · `25, Alley 296, Bade Road, Fengshan District, Kaohsiung, Taiwan Region`
+- **Tien Shan (Sinsing)** [미슐랭 셀렉티드] — Taiwanese · `67 Luoyang Street, Sinsing District, Kaohsiung, Taiwan Region`
+- **Xiantaosu** [미슐랭 셀렉티드] — Vegetarian · `220, Fuguo Road, Zuoying District, Kaohsiung, Taiwan Region`
+
+## 📍 신주 (54곳)
+- **Sushi An** [미슐랭 1스타] — Sushi · `62, Section 1, Jiafeng South Road, Zhubei City, Hsinchu County, Taiwan Region`
+- **Ang Gu** [미슐랭 빕구르망] — Noodles · `35 Guangfu Road, Guanxi Township, Hsinchu County, Taiwan Region`
+- **Bebu** [미슐랭 빕구르망] — Hakkanese · `1, Lane 16, Gongyuan Street, Beipu Township, Hsinchu County, Taiwan Region`
+- **Cat House** [미슐랭 빕구르망] — Noodles · `63 Xida Road, East District, Hsinchu City, Taiwan Region`
+- **Dongmen Rice Noodle Soup** [미슐랭 빕구르망] — Small eats · `Shop 1116 & 1117, Dongmen Market, 86 Datong Road, East District, Hsinchu City, Taiwan Region`
+- **Garden.V** [미슐랭 빕구르망] — Jiangzhe · `136, Section 1, Dongda Road, East District, Hsinchu City, Taiwan Region`
+- **He Jih Hsiang (Minzu Road)** [미슐랭 빕구르망] — Small eats · `163 Minzu Road, East District, Hsinchu City, Taiwan Region`
+- **Hung Chin** [미슐랭 빕구르망] — Hakkanese · `312, Section 3, Kehu Road, Zhudong Township, Hsinchu County, Taiwan Region`
+- **Jiu Tian Fu** [미슐랭 빕구르망] — Noodles · `436 Xida Road, North District, Hsinchu City, Taiwan Region`
+- **Monsoon** [미슐랭 빕구르망] — Vegetarian · `20 Chenggong 1st, Zhubei city, Hsinchu County, Taiwan Region`
+- **Noon Turnip Cake** [미슐랭 빕구르망] — Small eats · `8 Riverbank Boulevard, Hengshan Township, Hsinchu County, Taiwan Region`
+- **Nung Wei Hsiao Chu** [미슐랭 빕구르망] — Hakkanese · `56, Lane 92, Section 3, Jingguo Road, Xiangshan District, Hsinchu City, Taiwan Region`
+- **Shan Guo Tang** [미슐랭 빕구르망] — Vegetarian · `188 Zhuangjing South Road, Zhubei City, Hsinchu County, Taiwan Region`
+- **Shou Wu EAT** [미슐랭 빕구르망] — Hakkanese · `31 Chenggong 2nd Street, Zhubei City, Hsinchu County, Taiwan Region`
+- **Tang Tsao Yuan** [미슐랭 빕구르망] — Noodles · `113 Taike Road, Zhubei City, Hsinchu County, Taiwan Region`
+- **Tsou Chi Cai Bao (Zhongzheng Road)** [미슐랭 빕구르망] — Small eats · `49 Zhongzheng Road, Beipu Township, Hsinchu County, 314002, Taiwan Region`
+- **Yi Ge Rice Vermicelli** [미슐랭 빕구르망] — Small eats · `621 Fuchang Street, Qionglin Township, Hsinchu County, Taiwan Region`
+- **Yuan Wei Duck Noodle** [미슐랭 빕구르망] — Small eats · `59 Shengli Road, East District, Hsinchu City, Taiwan Region`
+- **Chang Chang Kitchen** [미슐랭 셀렉티드] — Taiwanese · `102-3 Guanghua Street, North District, Hsinchu City, Taiwan Region`
+- **Chuan Fu** [미슐랭 셀렉티드] — Barbecue · `80 Guangming 1st Road, Zhubei City, Hsinchu County, Taiwan Region`
+- **Firoo** [미슐랭 셀렉티드] — Contemporary · `66 Shengli 6th Street, Zhubei City, Hsinchu County, Taiwan Region`
+- **Geng Ye Yue Mei** [미슐랭 셀렉티드] — Hakkanese · `5, Lane 7, Emei Township, Hsinchu County, Taiwan Region`
+- **HOYA** [미슐랭 셀렉티드] — Creative · `7, Section 1, Liujia 1st Road, Zhubei City, Hsinchu County, Taiwan Region`
+- **Hai Kou Guabao** [미슐랭 셀렉티드] — Small eats · `1457, Section 2, Yanping Road, Xiangshan District, Hsinchu City, Taiwan Region`
+- **Happy Hwa** [미슐랭 셀렉티드] — Small eats · `150 Jiaxing Road, Zhubei City, Hsinchu County, Taiwan Region`
+- **Ho Chu Yuan** [미슐랭 셀렉티드] — Taiwanese · `63 Nanzhong Street, North District, Hsinchu City, Taiwan Region`
+- **Home Dishes** [미슐랭 셀렉티드] — Chinese · `260, Section 1, Wenxing Road, Zhubei City, Hsinchu County, Taiwan Region`
+- **Jun** [미슐랭 셀렉티드] — Japanese · `148, Section 1, Tiedao Road, East District, Hsinchu City, Taiwan Region`
+- **Kao Jai** [미슐랭 셀렉티드] — Thai · `92 Shijie Street, East District, Hsinchu City, Taiwan Region`
+- **Ko Chia Pen Se** [미슐랭 셀렉티드] — Hakkanese · `28 Puxin Street, Beipu District, Hsinchu County, Taiwan Region`
+- **Lao Chen Chia** [미슐랭 셀렉티드] — Small eats · `Shop 92 & 97, Zhong Yang Market, 2 Lane 2, Ximen Street, North District, Hsinchu City, Taiwan Region`
+- **Lao Dian Ginger Chicken (North)** [미슐랭 셀렉티드] — Hotpot · `51, Shaonian Street, North District, Hsinchu City, Taiwan Region`
+- **Lao Tou Pai** [미슐랭 셀렉티드] — Hakkanese · `46-1, Neighborhood 4, Dalin Village, Beipu Township, Hsinchu County, Taiwan Region`
+- **Li Yueh** [미슐랭 셀렉티드] — Japanese · `101, Xianzheng 13th Road, Zhubei City, Hsinchu County, Taiwan Region`
+- **Miao Kou Ya Xiang Fan (Zhongshan Road)** [미슐랭 셀렉티드] — Small eats · `142 Zhongshan Road, North District, Hsinchu City, Taiwan Region`
+- **Mo Chien Tan** [미슐랭 셀렉티드] — Taiwanese · `10, Lane 180, Minsheng Road, East District, Hsinchu City, Taiwan Region`
+- **Mu Fan Bloom** [미슐랭 셀렉티드] — Noodles · `52 Jianmei Road, East District, Hsinchu City, Taiwan Region`
+- **Mud Brick House** [미슐랭 셀렉티드] — Hakkanese · `113 Changchun Street, Beipu Township, Hsinchu County, Taiwan Region`
+- **No.10 Nanmen** [미슐랭 셀렉티드] — Noodles · `10 Nanmen Street, East District, Hsinchu City, Taiwan Region`
+- **Pho Xŭ** [미슐랭 셀렉티드] — Vietnamese · `112 Zhuangjing North Road, Zhubei City, Hsinchu County, Taiwan Region`
+- **Piccola Enoteca** [미슐랭 셀렉티드] — Italian · `102, Chenggong 2nd Street, Zhubei City, Hsinchu County, Taiwan Region`
+- **SABI** [미슐랭 셀렉티드] — Modern Cuisine · `92, Chenggong 10th Street, Zhubei City, Hsinchu County, Taiwan Region`
+- **Shih Fang Hsiao Ching** [미슐랭 셀렉티드] — Taiwanese · `17-4 Shifang Street, North District, Hsinchu City, Taiwan Region`
+- **TAIVII** [미슐랭 셀렉티드] — Taiwanese contemporary · `The Former Residence of Hsin Chih-ping, 32 Dongmen Street, East District, Hsinchu City, Taiwan Region`
+- **Tang Ming** [미슐랭 셀렉티드] — Taiwanese · `13, Alley 1, Lane 229, Linsen Road, East District, Hsinchu City, Taiwan Region`
+- **Very Good Vegan Gua Bao** [미슐랭 셀렉티드] — Small eats · `129 Linsen Road, East District, Hsinchu City, Taiwan Region`
+- **Wan Wan** [미슐랭 셀렉티드] — Taiwanese · `542, Neighborhood 10, Shangkeng Village, Xinfeng Township, Hsinchu County, Taiwan Region`
+- **Yeh Shu** [미슐랭 셀렉티드] — Taiwanese · `4 Yuanhou Street, East District, Hsinchu City, Taiwan Region`
+- **Yi Hsuan** [미슐랭 셀렉티드] — Taiwanese · `683 Minghu Road, East District, Hsinchu City, Taiwan Region`
+- **Ying Wang Meatball** [미슐랭 셀렉티드] — Small eats · `350, Section 2, Yanping Road, Xiangshan District, Hsinchu City, Taiwan Region`
+- **Yummy** [미슐랭 셀렉티드] — Taiwanese · `70, Lane 170, Section 2, Zhonghua Road, East District, Hsinchu City, Taiwan Region`
+- **ZenA** [미슐랭 셀렉티드] — European Contemporary · `75, Section 2, Jiafeng 2nd Street, Zhubei City, Hsinchu County, Taiwan Region`
+- **Zhudong Fried Sparerib Noodle (Zhudong)** [미슐랭 셀렉티드] — Noodles · `8, Section 2, Beixing Road, Zhudong Town, Hsinchu County, Taiwan Region`
+- **min food** [미슐랭 셀렉티드] — Asian · `22, Lane 18, Jinhua Street, East District, Hsinchu City, Taiwan Region`
+
+## 📍 신베이·지우펀 (46곳)
+- **A-ba's Taro Ball** [미슐랭 빕구르망] — Small eats · `1, Lane 18, Baoping Road, Yonghe District, New Taipei, Taiwan Region`
+- **Abba Hakka** [미슐랭 빕구르망] — Hakkanese · `118 Zhongshan Road, Sanxia District, New Taipei, Taiwan Region`
+- **Bei Ya Duck Thick Soup** [미슐랭 빕구르망] — Small eats · `169 Guangming Street, Xindian District, New Taipei, Taiwan Region`
+- **Bitan Chiao Tou Goose** [미슐랭 빕구르망] — Small eats · `127, Section 1, Beixin Road, Xindian District, New Taipei, Taiwan Region`
+- **Da One Gone Lamb** [미슐랭 빕구르망] — Small eats · `2, Lane 112, Siwei Road, Banqiao District, New Taipei, Taiwan Region`
+- **Dian Xiao Er (Datong North Road)** [미슐랭 빕구르망] — Small eats · `27 Datong North Road, Sanchong District, New Taipei, Taiwan Region`
+- **Garden h** [미슐랭 빕구르망] — Hakkanese · `22 Zhiguang Street, Yonghe District, New Taipei, Taiwan Region`
+- **Guang Xing Pork Knuckle** [미슐랭 빕구르망] — Small eats · `124 Ren'ai Street, Sanchong District, New Taipei, Taiwan Region`
+- **Jhen Pin** [미슐랭 빕구르망] — Small eats · `97, Section 1, Fuxing Road, Xinzhuang District, New Taipei, Taiwan Region`
+- **Lai Kang Shan** [미슐랭 빕구르망] — Small eats · `10 Jianguo Road, Xindian District, New Taipei, Taiwan Region`
+- **San Chieh Mei Nung Chia Le** [미슐랭 빕구르망] — Taiwanese · `23 Daping Road, Wanli District, New Taipei, Taiwan Region`
+- **San Tung** [미슐랭 빕구르망] — Chinese · `19, Lane 133, Zhongyang Road, Xindian District, New Taipei, Taiwan Region`
+- **Shang Hao** [미슐랭 빕구르망] — Small eats · `1, Lane 8, Minzhi Street, Zhonghe District, New Taipei, Taiwan Region`
+- **Superman** [미슐랭 빕구르망] — Small eats · `349, Section 1, Beixin Road, Xindian District, New Taipei, 231031, Taiwan Region`
+- **SÒNG JHAO** [미슐랭 빕구르망] — Taiwanese · `72 Fuxing Street, Yonghe District, New Taipei, Taiwan Region`
+- **Tsai Chia Beef Noodles** [미슐랭 빕구르망] — Noodles · `12, Alley 16, Lane 153, Section 3, Xiulang Road, Zhonghe District, New Taipei, Taiwan Region`
+- **Yeh Chia Pork Ribs Medicinal Herbs Soup** [미슐랭 빕구르망] — Small eats · `441, Section 2, Zhongshan Road, Banqiao District, New Taipei, Taiwan Region`
+- **Yonghe Chia Hsiang Soy Milk** [미슐랭 빕구르망] — Small eats · `57 Minzhi Street, Yonghe District, New Taipei, Taiwan Region`
+- **A Gan Yi Taro Balls** [미슐랭 셀렉티드] — Small eats · `5 Shuqi Road, Ruifang District, New Taipei, Taiwan Region`
+- **Amajia** [미슐랭 셀렉티드] — Taiwanese · `189 Huanggang Road, Jinshan District, New Taipei, Taiwan Region`
+- **Bak Kut Pan** [미슐랭 셀렉티드] — Malaysian · `22 Bao'an Street, Xindian District, New Taipei, Taiwan Region`
+- **Chi Yuan** [미슐랭 셀렉티드] — Taiwanese · `22 Neiliao Street, Gongliao District, New Taipei, Taiwan Region`
+- **Chia I** [미슐랭 셀렉티드] — Seafood · `2 Renhe Road, Gongliao District, New Taipei, Taiwan Region`
+- **Chin Ta Lu Rou Fan** [미슐랭 셀렉티드] — Small eats · `40 Daren Street, Sanchong District, New Taipei, Taiwan Region`
+- **Chun Yu Garden** [미슐랭 셀렉티드] — Creative · `36 Quanzhoucuo, Tamsui District, New Taipei, Taiwan Region`
+- **Dark Palace Taiwanese Gourmet** [미슐랭 셀렉티드] — Taiwanese · `6, 8 & 10, Lane 62, Section 1, Zhongzheng Road Section 1, Tamsui District, New Taipei, Taiwan Region`
+- **Hai Shan** [미슐랭 셀렉티드] — Small eats · `43 Haishan Road, Banqiao District, New Taipei, Taiwan Region`
+- **Happy Garden** [미슐랭 셀렉티드] — Taiwanese · `69 Laoqiankeng Road, Bali District, New Taipei, Taiwan Region`
+- **Huí Huí** [미슐랭 셀렉티드] — European Contemporary · `155-4 Dongding Road, Ruifang District, New Taipei, Taiwan Region`
+- **JIA YEN** [미슐랭 셀렉티드] — Jiangzhe · `3F, Caesar Park Hotel, 8, Section 2, Xianmin Boulevard, Banqiao District, New Taipei, Taiwan Region`
+- **Joy Vegetarian Restaurant** [미슐랭 셀렉티드] — Vegetarian · `117 Huqian Street, Xizhi District, New Taipei, 221022, Taiwan Region`
+- **Lao Hsu** [미슐랭 셀렉티드] — Taiwanese · `9, Baodao Lane, Section 3, Xinwu Road, Xindian District, New Taipei, Taiwan Region`
+- **Le Mei Studio** [미슐랭 셀렉티드] — European · `30, Section 1, Zhongxing Road, Xindian District, New Taipei, Taiwan Region`
+- **Le Yeh** [미슐랭 셀렉티드] — Taiwanese · `76, Section 1, Pingshuang Road, Pinglin District, New Taipei, Taiwan Region`
+- **NATURAL TEA MANOR** [미슐랭 셀렉티드] — Taiwanese · `30, Lane 380, Xiding Road, Xizhi District, New Taipei, 221001, Taiwan Region`
+- **Na Ka Seafood** [미슐랭 셀렉티드] — Fish and Seafood · `11 Lane 394, Section 1, Wenhua 3rd Road, Linkou District, New Taipei, Taiwan Region`
+- **San Fen Su Chi** [미슐랭 셀렉티드] — Jiangzhe · `8, Lane 49, Guoguang Road, Yonghe District, New Taipei, Taiwan Region`
+- **Shi Yang** [미슐랭 셀렉티드] — Taiwanese contemporary · `6, Lane 366, Section 3, Xiwan Road, Xizhi District, New Taipei, Taiwan Region`
+- **Shou Wu** [미슐랭 셀렉티드] — Hakkanese · `27 Minzu Road, Banqiao District, New Taipei, Taiwan Region`
+- **Wonderful Baba Bak Kut Teh King Of King** [미슐랭 셀렉티드] — Malaysian · `18-1 Juguang Road, Banqiao District, New Taipei, Taiwan Region`
+- **Woogu House** [미슐랭 셀렉티드] — Creative · `72, Lane 247, Section 1, Zhongshan North Road, Tamsui District, New Taipei, Taiwan Region`
+- **Xun Kitchen** [미슐랭 셀렉티드] — Taiwanese · `232, Section 1, Wenhua 1st Road, Linkou District, New Taipei, Taiwan Region`
+- **Zhang Ji Fish Ball** [미슐랭 셀렉티드] — Small eats · `25 Jishan Street, Ruifang District, New Taipei, Taiwan Region`
+- **Zhulin Chicken (Yonghe)** [미슐랭 셀렉티드] — Taiwanese · `13, Lane 39, Zhulin Road, Yonghe District, New Taipei, 234002, Taiwan Region`
+- **지우펀 아간이 타로볼 (阿柑姨芋圓)** [대만 로컬 명소] — 지우펀 전통 타로볼 디저트 (종합 타로볼 빙수, 따뜻한 팥 타로볼) · `No. 5, Shuqixiang, Ruifang District, New Taipei`
+- **지우펀 아메이 차주관 (阿妹茶樓 A-Mei Tea House)** [대만 로컬 명소] — 지우펀 전통 찻집 (우롱차 다도 세트, 전통 다과) · `No. 20, Shixia Ln, Ruifang District, New Taipei`

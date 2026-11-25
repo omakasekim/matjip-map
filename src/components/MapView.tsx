@@ -5,6 +5,13 @@ import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import { BasemapStyle, MapBounds, Place, getCategoryMeta } from '../types';
 
+export interface CameraTarget {
+  lat: number;
+  lng: number;
+  zoom: number;
+  seq: number;
+}
+
 interface MapViewProps {
   places: Place[];
   selectedPlace: Place | null;
@@ -12,6 +19,7 @@ interface MapViewProps {
   onBoundsChange: (bounds: MapBounds) => void;
   basemap: BasemapStyle;
   fitTrigger: number;
+  cameraTarget: CameraTarget | null;
   userLocation: { lat: number; lng: number } | null;
   visible: boolean;
 }
@@ -51,6 +59,7 @@ export const MapView: React.FC<MapViewProps> = ({
   onBoundsChange,
   basemap,
   fitTrigger,
+  cameraTarget,
   userLocation,
   visible,
 }) => {
@@ -62,12 +71,11 @@ export const MapView: React.FC<MapViewProps> = ({
   const userMarkerRef = useRef<L.CircleMarker | null>(null);
   const prevSelectedIdRef = useRef<number | null>(null);
 
-  // Initialize Leaflet map once
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
     const map = L.map(containerRef.current, {
-      center: [36.55, 127.75],
+      center: [36.45, 127.85],
       zoom: 7,
       zoomControl: false,
       preferCanvas: true,
@@ -83,17 +91,19 @@ export const MapView: React.FC<MapViewProps> = ({
 
     const cluster = L.markerClusterGroup({
       chunkedLoading: true,
-      chunkInterval: 80,
-      maxClusterRadius: 52,
+      chunkInterval: 60,
+      chunkDelay: 20,
+      maxClusterRadius: 56,
       spiderfyOnMaxZoom: true,
       showCoverageOnHover: false,
       zoomToBoundsOnClick: true,
       iconCreateFunction: (c) => {
         const count = c.getChildCount();
-        const size = count < 20 ? 36 : count < 100 ? 44 : 52;
-        const tier = count < 20 ? 'matjip-cluster-sm' : count < 100 ? 'matjip-cluster-md' : 'matjip-cluster-lg';
+        const size = count < 30 ? 36 : count < 200 ? 44 : 54;
+        const tier = count < 30 ? 'matjip-cluster-sm' : count < 200 ? 'matjip-cluster-md' : 'matjip-cluster-lg';
+        const label = count >= 1000 ? `${(count / 1000).toFixed(1)}k` : String(count);
         return L.divIcon({
-          html: `<div class="matjip-cluster ${tier}" style="width:${size}px;height:${size}px">${count}</div>`,
+          html: `<div class="matjip-cluster ${tier}" style="width:${size}px;height:${size}px">${label}</div>`,
           className: '',
           iconSize: L.point(size, size),
         });
@@ -133,7 +143,6 @@ export const MapView: React.FC<MapViewProps> = ({
     };
   }, []);
 
-  // Recompute map viewport when returning from list view or toggling sidebar
   useEffect(() => {
     if (!visible || !mapRef.current) return;
     const t = setTimeout(() => {
@@ -147,7 +156,6 @@ export const MapView: React.FC<MapViewProps> = ({
     return () => clearTimeout(t);
   }, [visible]);
 
-  // Switch basemap tiles dynamically
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
@@ -161,7 +169,6 @@ export const MapView: React.FC<MapViewProps> = ({
     }).addTo(map);
   }, [basemap]);
 
-  // Sync filtered places into marker cluster layer
   useEffect(() => {
     const cluster = clusterRef.current;
     if (!cluster) return;
@@ -178,7 +185,8 @@ export const MapView: React.FC<MapViewProps> = ({
         zIndexOffset: isSelected ? 1000 : 0,
       });
 
-      marker.bindTooltip(`${p.n} · ${p.c}`, {
+      const badgeStr = p.b ? ` · ${p.b}` : '';
+      marker.bindTooltip(`${p.n} (${p.c})${badgeStr}`, {
         direction: 'top',
         offset: [0, -32],
         className: 'matjip-tooltip',
@@ -196,7 +204,6 @@ export const MapView: React.FC<MapViewProps> = ({
     prevSelectedIdRef.current = selectedPlace?.i ?? null;
   }, [places]);
 
-  // Update selected marker highlight & flyTo smoothly
   useEffect(() => {
     const map = mapRef.current;
     const prevId = prevSelectedIdRef.current;
@@ -227,7 +234,12 @@ export const MapView: React.FC<MapViewProps> = ({
     prevSelectedIdRef.current = selectedPlace?.i ?? null;
   }, [selectedPlace]);
 
-  // Fit bounds when user triggers filter fit
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !cameraTarget) return;
+    map.flyTo([cameraTarget.lat, cameraTarget.lng], cameraTarget.zoom, { duration: 0.7 });
+  }, [cameraTarget]);
+
   useEffect(() => {
     const map = mapRef.current;
     if (!map || fitTrigger === 0 || places.length === 0) return;
@@ -243,7 +255,6 @@ export const MapView: React.FC<MapViewProps> = ({
     }
   }, [fitTrigger]);
 
-  // Render user GPS location pulse dot
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;

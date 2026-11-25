@@ -1,0 +1,255 @@
+# 🍽️ 🇭🇰 홍콩 맛집 리스트
+
+총 **244곳** · **식당 이름** — 무슨 음식 파는지 · `위치`
+
+> 🗺️ **지도에서 보기:** https://aetherx86.github.io/matjip-map/?country=HK
+
+## 📍 홍콩섬 (155곳)
+- **8 1/2 Otto e Mezzo - Bombana** [미슐랭 3스타] — Italian · `Shop 202, 2F, Alexandra House, 18 Chater Road, Central, Hong Kong, Hong Kong SAR`
+- **Amber** [미슐랭 3스타] — French Contemporary · `7F, Mandarin Oriental The Landmark , 15 Queen's Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Caprice** [미슐랭 3스타] — French Contemporary · `6F, Four Seasons Hotel, 8 Finance Street, Central, Hong Kong, Hong Kong SAR`
+- **Forum** [미슐랭 3스타] — Cantonese · `1F, Sino Plaza, 255-257 Gloucester Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Sushi Shikon** [미슐랭 3스타] — Sushi · `7F, The Landmark Mandarin Oriental, 15 Queen's Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Ta Vie** [미슐랭 3스타] — Innovative · `2F, The Pottinger Hotel, 21 Stanley Street, Central, Hong Kong, Hong Kong SAR`
+- **Arbor** [미슐랭 2스타] — Innovative · `25F, H Queen's, 80 Queen's Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Bo Innovation** [미슐랭 2스타] — Innovative · `1F, H Code, 45 Pottinger Street, Central, Hong Kong, Hong Kong SAR`
+- **Cristal Room by Anne-Sophie Pic** [미슐랭 2스타] — French Contemporary · `44F, Forty-Five, Gloucester Tower, Landmark, 15 Queen's Road Central, Central, Hong Kong, Hong Kong SAR`
+- **L'Atelier de Joël Robuchon** [미슐랭 2스타] — French Contemporary · `Shops 403-410, 4F, Landmark Atrium, 15 Queen's Road Central, Central, Hong Kong, Hong Kong SAR`
+- **L'Envol** [미슐랭 2스타] — French Contemporary · `3F, The St. Regis Hotel, 1 Harbour Drive, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Lung King Heen** [미슐랭 2스타] — Cantonese · `4F, Four Seasons Hotel, 8 Finance Street, Central, Hong Kong, Hong Kong SAR`
+- **Noi by Paulo Airaudo** [미슐랭 2스타] — Italian Contemporary · `5F, Four Seasons Hotel, 8 Finance Street, Central, Hong Kong, Hong Kong SAR`
+- **Octavium** [미슐랭 2스타] — Italian · `8F, One Chinachem Central, 22 Des Voeux Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Rùn** [미슐랭 2스타] — Cantonese · `2F, The St. Regis Hotel, 1 Harbour Drive, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Tate** [미슐랭 2스타] — Innovative · `68 Lok Ku Road, Sheung Wan, Hong Kong, Hong Kong SAR`
+- **Ying Jee Club** [미슐랭 2스타] — Cantonese · `Shop G05, 107-108, GF & 1F, Nexxus Building, 41 Connaught Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Ami** [미슐랭 1스타] — French Contemporary · `Shop 302, 3F, Alexandra House, 18 Chater Road, Central, Hong Kong, Hong Kong SAR`
+- **Andō** [미슐랭 1스타] — Innovative · `1F, Somptueux Central, 52-54 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Arcane** [미슐랭 1스타] — European Contemporary · `3F, 18 On Lan Street, Central, Hong Kong, Hong Kong SAR`
+- **Beefbar** [미슐랭 1스타] — Steakhouse · `2F, Club Lusitano, 16 Ice House Street, Central, Hong Kong, Hong Kong SAR`
+- **Belon** [미슐랭 1스타] — French Contemporary · `1F, 1-5 Elgin Street, Central, Hong Kong, Hong Kong SAR`
+- **China Tang** [미슐랭 1스타] — Cantonese · `Shop 411-413, 4F, Landmark Atrium, 15 Queen's Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Duddell's** [미슐랭 1스타] — Cantonese · `3F, 1 Duddell Street, Central, Hong Kong, Hong Kong SAR`
+- **Estro** [미슐랭 1스타] — Italian · `2F, 1 Duddell Street, Central, Hong Kong, Hong Kong SAR`
+- **Feuille** [미슐랭 1스타] — French Contemporary · `5F, The Wellington, 198 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Fook Lam Moon (Wan Chai)** [미슐랭 1스타] — Cantonese · `35-45 Johnston Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Godenya** [미슐랭 1스타] — Japanese · `UG, 182 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Hansik Goo** [미슐랭 1스타] — Korean · `1F, The Wellington, 198 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Ho Hung Kee (Causeway Bay)** [미슐랭 1스타] — Noodles and Congee · `Shop 1204-1205, 12F, Hysan Place, 500 Hennessy Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **I M Teppanyaki & Wine** [미슐랭 1스타] — Teppanyaki · `1F, SL Ginza, 68 Electric Road, Tin Hau, Hong Kong, Hong Kong SAR`
+- **Kam's Roast Goose** [미슐랭 1스타] — Cantonese Roast Meats · `GF, Po Wah Commercial Center, 226 Hennessy Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Kappo Rin** [미슐랭 1스타] — Japanese · `7F, The Landmark Mandarin Oriental, 15 Queen's Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Liu Yuan Pavilion** [미슐랭 1스타] — Shanghainese · `3F, The Broadway, 54-62 Lockhart Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Louise** [미슐랭 1스타] — French Contemporary · `PMQ, 35 Aberdeen Street, Central, Hong Kong, Hong Kong SAR`
+- **Man Ho (Admiralty)** [미슐랭 1스타] — Cantonese · `3F, JW Marriott Hotel, Pacific Place, 88 Queensway, Admiralty, Hong Kong, Hong Kong SAR`
+- **Man Wah** [미슐랭 1스타] — Cantonese · `25F, Mandarin Oriental Hotel, 5 Connaught Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Mono** [미슐랭 1스타] — Latin American · `5F, 18 On Lan Street, Central, Hong Kong, Hong Kong SAR`
+- **Mora** [미슐랭 1스타] — Innovative · `40 Upper Lascar Row, Sheung Wan, Hong Kong, Hong Kong SAR`
+- **Nagamoto** [미슐랭 1스타] — Japanese · `8F, 18 On Lan Street, Central, Hong Kong, Hong Kong SAR`
+- **Neighborhood** [미슐랭 1스타] — European Contemporary · `61-63 Hollywood Road, Central, Hong Kong, Hong Kong SAR`
+- **New Punjab Club** [미슐랭 1스타] — Indian · `GF, World Wide Commercial Building, 34 Wyndham Street, Central, Hong Kong, Hong Kong SAR`
+- **Pang's Kitchen** [미슐랭 1스타] — Cantonese · `25 Yik Yam Street, Happy Valley, Hong Kong, Hong Kong SAR`
+- **Petrus** [미슐랭 1스타] — French · `56F, Island Shangri-La Hotel, Pacific Place, Supreme Court Road, Admiralty, Hong Kong, Hong Kong SAR`
+- **Plaisance by Mauro Colagreco** [미슐랭 1스타] — French Contemporary · `1F, 1 Duddell Street, Central, Hong Kong, Hong Kong SAR`
+- **Racines** [미슐랭 1스타] — French Contemporary · `GF, 22 Upper Station Street, Sheung Wan, Hong Kong, Hong Kong SAR`
+- **Roganic** [미슐랭 1스타] — European Contemporary · `Shop No. 402 & 403, 4F, Lee Garden One, 33 Hysan Avenue, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Ryota Kappou Modern** [미슐랭 1스타] — Japanese · `21F, 18 On Lan Street, Central, Hong Kong, Hong Kong SAR`
+- **Seventh Son (Wan Chai)** [미슐랭 1스타] — Cantonese · `3F, The Wharney Hotel, 57-73 Lockhart Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Summer Palace** [미슐랭 1스타] — Cantonese · `5F, Island Shangri-La Hotel, Pacific Place, Supreme Court Road, Admiralty, Hong Kong, Hong Kong SAR`
+- **The Chairman** [미슐랭 1스타] — Cantonese · `3F, The Wellington, 198 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Vea** [미슐랭 1스타] — Innovative · `30F, The Wellington, 198 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Whey** [미슐랭 1스타] — Asian Contemporary · `UG Level, The Wellington, 198 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Xin Rong Ji** [미슐랭 1스타] — Taizhou · `GF & 1F, China Overseas Building, 139 Lockhart Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Yardbird** [미슐랭 1스타] — Yakitori · `154-158 Wing Lok Street, Sheung Wan, Hong Kong, Hong Kong SAR`
+- **Yat Lok (Central)** [미슐랭 1스타] — Cantonese Roast Meats · `GF, Conwell House, 34-38 Stanley Street, Central, Hong Kong, Hong Kong SAR`
+- **Yong Fu** [미슐랭 1스타] — Ningbo · `Shop 2 at GF & 1F, Golden Star Building, 20-24 Lockhart Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Zhejiang Heen** [미슐랭 1스타] — Zhejiang · `1-3F, ZJ 300, 300-306 Lockhart Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Art & Taste** [미슐랭 빕구르망] — Taiwanese · `Shop A, GF, Carfield Commercial Building, 75-77 Wyndham Street, Central, Hong Kong, Hong Kong SAR`
+- **Ba Yi** [미슐랭 빕구르망] — Xinjiang · `43 Water Street, Sai Ying Pun, Hong Kong, Hong Kong SAR`
+- **Chiu Ka Banquet** [미슐랭 빕구르망] — Chiu Chow · `8F, Champion Building, 287-291 Des Voeux Road Central, Sheung Wan, Hong Kong, Hong Kong SAR`
+- **Din Tai Fung (Causeway Bay)** [미슐랭 빕구르망] — Shanghainese · `Shop G3-G11, GF, 68 Yee Woo Street, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Eng Kee Noodle Shop** [미슐랭 빕구르망] — Noodles · `GF, 32 High Street, Sai Ying Pun, Hong Kong, Hong Kong SAR`
+- **Fiata** [미슐랭 빕구르망] — Pizza · `GF, 2 Staunton Street, Central, Hong Kong, Hong Kong SAR`
+- **Fisholic (North Point)** [미슐랭 빕구르망] — Street Food · `Shop 14, GF, Victor Court, 14-28 Wang On Road, North Point, Hong Kong, Hong Kong SAR`
+- **Fung Shing (North Point)** [미슐랭 빕구르망] — Shun Tak · `62-68 Java Road, North Point, Hong Kong, Hong Kong SAR`
+- **Hung's Delicacies** [미슐랭 빕구르망] — Chiu Chow · `Shop B01, Lower Level, Tower 535, 535 Jaffe Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Juno** [미슐랭 빕구르망] — Mediterranean Cuisine · `GF, 88 Wing Lok Street, Sheung Wan, Hong Kong, Hong Kong SAR`
+- **Kau Kee** [미슐랭 빕구르망] — Noodles · `21 Gough Street, Central, Hong Kong, Hong Kong SAR`
+- **Keung Kee** [미슐랭 빕구르망] — Street Food · `406 Lockhart Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Kwan Kee Clay Pot Rice (Queen's Road West)** [미슐랭 빕구르망] — Cantonese · `Shop 1, GF, Wo Yick Mansion, 263 Queen's Road West, Sai Ying Pun, Hong Kong, Hong Kong SAR`
+- **Lai's Kitchen** [미슐랭 빕구르망] — Cantonese · `1F, Harvard Commercial Building, 105-111 Thomson Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Little Napoli** [미슐랭 빕구르망] — Pizza · `6-16 Tai Wong Street East, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Lulu Baobao (Wong Chuk Hang)** [미슐랭 빕구르망] — Dim Sum · `Shop 102, 1F, Metro South Tower 2, 39 Wong Chuk Hang Road, Wong Chuk Hang, Hong Kong, Hong Kong SAR`
+- **Megan's Kitchen** [미슐랭 빕구르망] — Cantonese · `5F, Lucky Centre, 165-171 Wan Chai Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Po Kee** [미슐랭 빕구르망] — Cantonese Roast Meats · `425P Queen's Road West, Western District, Hong Kong, Hong Kong SAR`
+- **Prof Chan's (Western District)** [미슐랭 빕구르망] — Hunanese · `420-424 Queen's Road West, Western District, Hong Kong, Hong Kong SAR`
+- **Putien (Causeway Bay)** [미슐랭 빕구르망] — Fujian · `Shop A, 7F, Lee Theatre Plaza, 99 Percival Street, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Samsen (Wan Chai)** [미슐랭 빕구르망] — Thai · `68 Stone Nullah Lane, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Sang Kee** [미슐랭 빕구르망] — Cantonese · `3-4F, Sunshine Plaza, 353 Lockhart Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Sang Kee Foods (Western District)** [미슐랭 빕구르망] — Street Food · `263 Queen'S Road West, Hong Kong, Hong Kong SAR`
+- **She Wong Leung** [미슐랭 빕구르망] — Cantonese · `Shop A, GF, 298 Electric Road, North Point, Hong Kong, Hong Kong SAR`
+- **Shek Kee Kitchen** [미슐랭 빕구르망] — Cantonese · `15-17 Ngan Mok Street, Tin Hau, Hong Kong, Hong Kong SAR`
+- **Ship Kee** [미슐랭 빕구르망] — Cantonese · `6F, Hopewell Centre, 183 Queen's Road East, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Shugetsu Ramen (Central)** [미슐랭 빕구르망] — Ramen · `5 Gough Street, Central, Hong Kong, Hong Kong SAR`
+- **Sing Kee** [미슐랭 빕구르망] — Cantonese · `2F, 1 Lyndhurst Tower, 1 Lyndhurst Terrace, Central, Hong Kong, Hong Kong SAR`
+- **Sister Wah** [미슐랭 빕구르망] — Noodles · `Shop A1, 13 Electric Road, Tin Hau, Hong Kong, Hong Kong SAR`
+- **Tai Woo** [미슐랭 빕구르망] — Cantonese · `9F, Causeway Bay Plaza 2, 463-483 Lockhart Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Tak Kee Chiu Chou Restaurant** [미슐랭 빕구르망] — Chiu Chow · `Shop G, 3 Belcher's Street, Western District, Hong Kong, Hong Kong SAR`
+- **Tasty (Central)** [미슐랭 빕구르망] — Noodles and Congee · `Shop 3016-3018, 3F, IFC Mall, 1 Harbour View Street, Central, Hong Kong, Hong Kong SAR`
+- **Trusty Congee King (Wan Chai)** [미슐랭 빕구르망] — Noodles and Congee · `7 Heard Street, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Tsim Chai Kee (Wellington Street)** [미슐랭 빕구르망] — Noodles · `98 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Uncle Quek** [미슐랭 빕구르망] — South East Asian · `6F, 8 Lyndhurst Terrace, Central, Hong Kong, Hong Kong SAR`
+- **Wang Fu** [미슐랭 빕구르망] — Dumplings · `168 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Yi Jia** [미슐랭 빕구르망] — Shanghainese · `Shop G04, Lime Gala, 393 Shau Kei Wan Road, Shau Kei Wan, Hong Kong, Hong Kong SAR`
+- **Yuan is Here (Western District)** [미슐랭 빕구르망] — Taiwanese · `31 North Street, Western District, Hong Kong, Hong Kong SAR`
+- **Ăn Chơi** [미슐랭 빕구르망] — Vietnamese · `15-17 Mercer Street, Sheung Wan, Hong Kong, Hong Kong SAR`
+- **Academia** [미슐랭 셀렉티드] — Huaiyang · `10F, Causeway Bay Plaza 2, 463-483 Lockhart Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Akira Back** [미슐랭 셀렉티드] — Asian Contemporary · `5F, The Henderson, 2 Murray Road, Central, Hong Kong, Hong Kong SAR`
+- **Ankôma** [미슐랭 셀렉티드] — European Contemporary · `16F, Cubus, 1 Hoi Ping Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Beanmountain** [미슐랭 셀렉티드] — Street Food · `GF, 1 Canal Road East, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Bánh Mì Nếm (Wan Chai)** [미슐랭 셀렉티드] — Street Food · `GF, 247-249 Queen's Road East, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Carbone** [미슐랭 셀렉티드] — Italian-American · `9F, 33 Wyndham Street, Central, Hong Kong, Hong Kong SAR`
+- **Citrino da Yoshinaga Jinbo** [미슐랭 셀렉티드] — Italian Contemporary · `2F, 18 On Lan Street, Central, Hong Kong, Hong Kong SAR`
+- **Farm House** [미슐랭 셀렉티드] — Cantonese · `1F, Phase 1, China Taiping Tower, 8 Sunning Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Furong** [미슐랭 셀렉티드] — Hunanese · `2F, The Wellington, 198 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Hau Tak** [미슐랭 셀렉티드] — Cantonese · `454-456 Lockhart Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Heimat** [미슐랭 셀렉티드] — German · `8F, 33 Wyndham Street, Central, Hong Kong, Hong Kong SAR`
+- **Ho Lee Fook** [미슐랭 셀렉티드] — Cantonese · `3-5 Elgin Street, Central, Hong Kong, Hong Kong SAR`
+- **Hong Kong Cuisine** [미슐랭 셀렉티드] — Chinese Contemporary · `1F, Elegance Court, 2-4 Tsoi Tak Street, Happy Valley, Hong Kong, Hong Kong SAR`
+- **Hyde Park Garden** [미슐랭 셀렉티드] — Fish and Seafood · `44 Hoi Pong Road Central, Lei Yue Mun, Hong Kong, Hong Kong SAR`
+- **Involtini** [미슐랭 셀렉티드] — Italian · `11F, The L. Square, 459-461 Lockhart Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Ippoh** [미슐랭 셀렉티드] — Tempura · `39 Aberdeen Street, Central, Hong Kong, Hong Kong SAR`
+- **Jardin de Jade (Wan Chai)** [미슐랭 셀렉티드] — Jiangzhe · `G3-4, GF, Sun Hung Kai Centre, 30 Harbour Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Jean-Pierre** [미슐랭 셀렉티드] — French · `9 Bridges Street, Central, Hong Kong, Hong Kong SAR`
+- **Jee** [미슐랭 셀렉티드] — Innovative · `2F, 8 Lyndhurst Terrace, Central, Hong Kong, Hong Kong SAR`
+- **Kicho** [미슐랭 셀렉티드] — Yakitori · `Shop 2B, 1F, Manning House, 48 Queen's Road Central, Central, Hong Kong, Hong Kong SAR`
+- **La Volta** [미슐랭 셀렉티드] — Italian · `GF, 9 Lan Fong Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Le Colvert** [미슐랭 셀렉티드] — French · `Shop 3, GF, 321 Des Voeux Road West, Sai Ying Pun, Hong Kong, Hong Kong SAR`
+- **Leela** [미슐랭 셀렉티드] — Indian · `Shop 301-310, Lee Garden Three, 1 Sunning Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Lei Garden (Wan Chai)** [미슐랭 셀렉티드] — Cantonese · `1F, CNT Tower, 338 Hennessy Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Lucale** [미슐랭 셀렉티드] — Italian · `Shop 5-8, GF, Hang Fai Building, 28-32 Pok Fu Lam Road, Sai Ying Pun, Hong Kong, Hong Kong SAR`
+- **Luk Yu Tea House** [미슐랭 셀렉티드] — Cantonese · `24-26 Stanley Street, Central, Hong Kong, Hong Kong SAR`
+- **Magistracy Dining Room** [미슐랭 셀렉티드] — European · `GF, Central Magistracy, Tai Kwun, 1 Arbuthnot Road, Central, Hong Kong, Hong Kong SAR`
+- **Mak Kee (May Ka Mansion)** [미슐랭 셀렉티드] — Street Food · `Shop 1, May Ka Mansion, 21 Fort Street, North Point, Hong Kong, Hong Kong SAR`
+- **Mandarin Grill + Bar** [미슐랭 셀렉티드] — European Contemporary · `1F, Mandarin Oriental Hotel, 5 Connaught Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Mâm Amis** [미슐랭 셀렉티드] — Vietnamese · `Shop A & B, GF, Fu Fai Commercial Centre, 27 Hillier Street, Sheung Wan, Hong Kong, Hong Kong SAR`
+- **One Harbour Road** [미슐랭 셀렉티드] — Cantonese · `7-8F, Grand Hyatt Hotel, 1 Harbour Road, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Prince and the Peacock** [미슐랭 셀렉티드] — Indian · `2F, The Magistracy, Tai Kwun, 1 Arbuthnot Road, Central, Hong Kong, Hong Kong SAR`
+- **Roucou** [미슐랭 셀렉티드] — Innovative · `28 Aberdeen Street, Central, Hong Kong, Hong Kong SAR`
+- **She Wong Hei** [미슐랭 셀렉티드] — Cantonese · `59 Percival Street, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Snack Baby (Central)** [미슐랭 셀렉티드] — Street Food · `93-95 Hollywood Road, Central, Hong Kong, Hong Kong SAR`
+- **Sol** [미슐랭 셀렉티드] — Korean Contemporary · `5F, 8 Lyndhurst Terrace, Central, Hong Kong, Hong Kong SAR`
+- **Sếp** [미슐랭 셀렉티드] — Vietnamese · `19F, High Block, H Code, 45 Pottinger Street, Central, Hong Kong, Hong Kong SAR`
+- **Teppanyaki Mihara Goten** [미슐랭 셀렉티드] — Teppanyaki · `3F, Cubus, 1 Hoi Ping Road, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Terrace Boulud by Mandarin Oriental** [미슐랭 셀렉티드] — French · `25F, Prince's Building, 10 Charter Road, Central, Hong Kong, Hong Kong SAR`
+- **The Merchants** [미슐랭 셀렉티드] — Shanghainese · `43-45F, Forty-Five, Gloucester Tower, Landmark, 15 Queen's Road Central, Central, Hong Kong, Hong Kong SAR`
+- **Toritama** [미슐랭 셀렉티드] — Yakitori · `GF, Greenville, 2 Glenealy, Central, Hong Kong, Hong Kong SAR`
+- **Trattoria Felino** [미슐랭 셀렉티드] — Italian · `Shop 3&4, GF, Pao Yip Building, 1-7 Ship Street, Wan Chai, Hong Kong, Hong Kong SAR`
+- **Té Bo** [미슐랭 셀렉티드] — European Contemporary · `2F, Two Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong, Hong Kong SAR`
+- **Wing** [미슐랭 셀렉티드] — Innovative · `29F, The Wellington, 198 Wellington Street, Central, Hong Kong, Hong Kong SAR`
+- **Yuan** [미슐랭 셀렉티드] — Vegetarian · `Shop 2, GF, Chinachem Hollywood Centre, 1-13 Hollywood Road, Central, Hong Kong, Hong Kong SAR`
+- **Yuè (Causeway Bay)** [미슐랭 셀렉티드] — Cantonese · `Shop 1301, Food Forum, Time Square, 1 Matheson Street, Causeway Bay, Hong Kong, Hong Kong SAR`
+- **Lan Fong Yuen (란퐁유엔 센트럴)** [홍콩 로컬 명소] — 차찬텡 · 밀크티·프렌치토스트 (스타킹 밀크티, 프렌치토스트, 파닭 비빔면) · `2 Gage St, Central, Hong Kong`
+- **Bakehouse Central (베이크하우스 센트럴)** [홍콩 로컬 명소] — 베이커리 · 사워도우 에그타르트 (사워도우 에그타르트, 크루아상, 도넛) · `5 Staunton St, Central, Hong Kong`
+- **Mak's Noodle Central (막스누들 센트럴)** [홍콩 로컬 명소] — 광둥식 완탕면 (새우 완탕면, 소고기 양지 국수) · `77 Wellington St, Central, Hong Kong`
+- **Sing Heung Yuen (싱흥유엔)** [홍콩 로컬 명소] — 다이파이동 · 토마토 라면 (토마토 소고기 라면, 크리스피 번(연유버터)) · `2 Mee Lun St, Central, Hong Kong`
+- **Joy Hing Roasted Meat (조이힝 바비큐)** [홍콩 로컬 명소] — 광둥식 차슈·로스트덕 (차슈 덮밥, 로스트 포크, 거위 구이) · `265-267 Hennessy Rd, Wan Chai, Hong Kong`
+- **Tai Cheong Bakery (타이청 베이커리)** [홍콩 로컬 명소] — 베이커리 · 홍콩식 에그타르트 (에그타르트, 사옹(도넛)) · `35 Lyndhurst Terrace, Central, Hong Kong`
+- **Under Bridge Spicy Crab (언더브릿지 스파이시 크랩)** [홍콩 로컬 명소] — 해산물 · 피풍탕 스파이시 크랩 (스파이시 크랩, 마늘 당면 가리비, 맛조개 볶음) · `421-425 Lockhart Rd, Wan Chai, Hong Kong`
+- **Yung Kee Restaurant (융키 레스토랑)** [홍콩 로컬 명소] — 광둥식 로스트 구스 (숯불 로스트 구스, 피단 생강 절임) · `32-40 Wellington St, Central, Hong Kong`
+- **Lin Heung Lau (린흥라우)** [홍콩 로컬 명소] — 전통 카트 딤섬 티하우스 (전통 카트 딤섬, 말라이고, 보이차) · `160-164 Wellington St, Central, Hong Kong`
+- **Sun Hing Restaurant (신흥식당)** [홍콩 로컬 명소] — 심야 딤섬 · 유황바오 (골든 에그 커스터드번(류사바오), 튀김 우유, 샤오마이) · `8 Smithfield Rd, Kennedy Town, Hong Kong`
+- **For Kee Restaurant (포키 레스토랑)** [홍콩 로컬 명소] — 로컬 식당 · 포크찹 덮밥 (포크찹 라이스, 프렌치토스트) · `200 Hollywood Rd, Sheung Wan, Hong Kong`
+- **Cheung Hing Kee (청흥키 성젠바오 완차이)** [홍콩 로컬 명소] — 상하이 군만두(성젠바오) (오리지널 성젠바오, 트러플 성젠바오, 새우 성젠바오) · `126-128 Johnston Rd, Wan Chai, Hong Kong`
+
+## 📍 구룡 (76곳)
+- **T'ang Court** [미슐랭 3스타] — Cantonese · `1-2F, The Langham Hotel, 8 Peking Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Lai Ching Heen** [미슐랭 2스타] — Cantonese · `GF, Regent, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Tin Lung Heen** [미슐랭 2스타] — Cantonese · `102F, The Ritz-Carlton, International Commerce Centre, 1 Austin Road West, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Chaat** [미슐랭 1스타] — Indian · `5F, Rosewood, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Fu Ho** [미슐랭 1스타] — Cantonese · `Shop 402, 4F, FoodLoft, Mira Place One, 132 Nathan Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Gaddi's** [미슐랭 1스타] — French · `1F, The Peninsula Hotel, Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Imperial Treasure Fine Chinese Cuisine (Tsim Sha Tsui)** [미슐랭 1스타] — Cantonese · `10F, One Peking, 1 Peking Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Shang Palace** [미슐랭 1스타] — Cantonese · `Lower Level 1, Kowloon Shangri-La Hotel, 64 Mody Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Spring Moon** [미슐랭 1스타] — Cantonese · `1F, The Peninsula Hotel, Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Sun Tung Lok** [미슐랭 1스타] — Cantonese · `Shop 401, L4, FoodLoft, Mira Place One, 132 Nathan Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Sushi Takeshi** [미슐랭 1스타] — Sushi · `GF, The Mira, 118-130 Nathan Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Sushi Wadatsumi** [미슐랭 1스타] — Sushi · `607, 6F, K11 Musea, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **The Legacy House** [미슐랭 1스타] — Shun Tak · `5F, Rosewood Hotel, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Tosca di Angelo** [미슐랭 1스타] — Italian · `102F, The Ritz-Carlton, International Commerce Centre, 1 Austin Road West, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Tuber Umberto Bombana** [미슐랭 1스타] — Italian · `Shop 113A, 1F, K11 Musea, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Yat Tung Heen** [미슐랭 1스타] — Cantonese · `B2F, Eaton Hotel, 380 Nathan Road, Jordan, Hong Kong, Hong Kong SAR`
+- **Yè Shanghai (Tsim Sha Tsui)** [미슐랭 1스타] — Shanghainese · `702, 7F, K11 Musea, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Épure** [미슐랭 1스타] — French Contemporary · `Shop 403, 4F, Ocean Centre, Harbour City, 3-27 Canton Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Ah Chun Shandong Dumpling (Prince Edward)** [미슐랭 빕구르망] — Dumplings · `60 Lai Chi Kok Road, Prince Edward, Hong Kong, Hong Kong SAR`
+- **Cheung Hing Kee (Tsim Sha Tsui)** [미슐랭 빕구르망] — Street Food · `GF, 48 Lock Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Din Tai Fung (Tsim Sha Tsui)** [미슐랭 빕구르망] — Shanghainese · `Shop 306, 3F, Silvercord, 30 Canton Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Dragons' Den** [미슐랭 빕구르망] — Cantonese · `Shop S02, 2F, Tin Ma Court Commercial Centre, 55 Chuk Yuen Road, Wong Tai Sin, Hong Kong, Hong Kong SAR`
+- **Eton** [미슐랭 빕구르망] — Shun Tak · `1-2F, European Asian Bank Building, 749 Nathan Road, Mong Kok, Hong Kong, Hong Kong SAR`
+- **Glorious Cuisine** [미슐랭 빕구르망] — Cantonese · `31-33 Shek Kip Mei Street, Sham Shui Po, Hong Kong, Hong Kong SAR`
+- **Heartwarming (Prince Edward)** [미슐랭 빕구르망] — Street Food · `23 Yu Chau Street, Prince Edward, Hong Kong, Hong Kong SAR`
+- **Ho Ho Chak** [미슐랭 빕구르망] — Chiu Chow · `9F, Nathan Hill, 38 Hillwood Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Ju Xing Home** [미슐랭 빕구르망] — Cantonese · `GF, 416 and 418 Portland Street, Prince Edward, Hong Kong, Hong Kong SAR`
+- **Kai Kai (Jordan)** [미슐랭 빕구르망] — Street Food · `113-115 Parkes Street, Jordan, Hong Kong, Hong Kong SAR`
+- **Kung Wo Beancurd Factory** [미슐랭 빕구르망] — Street Food · `118 Pei Ho Street, Sham Shui Po, Hong Kong, Hong Kong SAR`
+- **Kwan Kee Bamboo Noodles** [미슐랭 빕구르망] — Noodles · `Shop E, 1 Wing Lung Street, Cheung Sha Wan, Hong Kong, Hong Kong SAR`
+- **Lau Sum Kee (Fuk Wing Street)** [미슐랭 빕구르망] — Noodles · `82 Fuk Wing Street, Sham Shui Po, Hong Kong, Hong Kong SAR`
+- **Lucky Indonesia** [미슐랭 빕구르망] — Indonesian · `46 Tung Ming Street, Kwun Tong, Hong Kong, Hong Kong SAR`
+- **Mak Man Kee** [미슐랭 빕구르망] — Noodles · `51 Parkes Street, Jordan, Hong Kong, Hong Kong SAR`
+- **Saya** [미슐랭 빕구르망] — Thai · `Shop G701, GF, Square Mile II, 18 Ka Shin Street, Tai Kok Tsui, Hong Kong, Hong Kong SAR`
+- **Siaw** [미슐랭 빕구르망] — Thai · `8 Hart Avenue, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Takeya** [미슐랭 빕구르망] — Japanese · `Shop 1, On Wah Building, 31C1 Tak Man Street, Whampoa Estate, Hung Hom, Hong Kong, Hong Kong SAR`
+- **Thai Pai Dong (Jordan)** [미슐랭 빕구르망] — Thai · `GF, 24 Man Yuen Street, Jordan, Hong Kong, Hong Kong SAR`
+- **Tim Ho Wan (Sham Shui Po)** [미슐랭 빕구르망] — Dim Sum · `9-11 Fuk Wing Street, Sham Shui Po, Hong Kong, Hong Kong SAR`
+- **Twins Liangpi Limited (Mong Kok)** [미슐랭 빕구르망] — Street Food · `GF, 99 Hak Po Street, Mong Kok, Hong Kong, Hong Kong SAR`
+- **Wing Lai Yuen** [미슐랭 빕구르망] — Shanghainese · `Shop 102-105, 1F, Gourmet Place, Whampoa Plaza, Site 8, Whampoa Garden, 7 Tak On Street, Hung Hom, Hong Kong, Hong Kong SAR`
+- **Above & Beyond** [미슐랭 셀렉티드] — Cantonese · `28F, Hotel Icon, 17 Science Museum Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Cafe Bau** [미슐랭 셀렉티드] — European Contemporary · `GF, FWD House 1881 Main Building, 1881 Heritage, 2A Canton Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Carna by Dario Cecchini** [미슐랭 셀렉티드] — Steakhouse · `39F, Mondrian, 8A Hart Avenue, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Celestial Court** [미슐랭 셀렉티드] — Cantonese · `2F, Sheraton Hotel, 20 Nathan Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Chesa** [미슐랭 셀렉티드] — Swiss · `1F, The Peninsula Hotel, 22 Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Cuisine Cuisine at The Mira** [미슐랭 셀렉티드] — Cantonese · `3F, The Mira, 118 Nathan Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Fat Boy** [미슐랭 셀렉티드] — Street Food · `3 Hau Fook Street, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Fishball Man (To Kwa Wan)** [미슐랭 셀렉티드] — Street Food · `Shop B, GF, 183 Ma Tau Wai Road, To Kwa Wan, Hong Kong, Hong Kong SAR`
+- **Hing Kee** [미슐랭 셀렉티드] — Fish and Seafood · `1F, Bowa House, 180 Nathan Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Ho Kee Dessert (To Kwa Wan)** [미슐랭 셀렉티드] — Street Food · `Shop 111 & 122, GF, I-Feng Mansions, 237A To Kwa Wan Road, To Kwa Wan, Hong Kong, Hong Kong SAR`
+- **Hop Yik Tai** [미슐랭 셀렉티드] — Street Food · `121 Kweilin Street, Sham Shui Po, Hong Kong, Hong Kong SAR`
+- **Hung Hom Pancake** [미슐랭 셀렉티드] — Street Food · `Shop 2, Polly Court, Taku Street, Hung Hom, Hong Kong, Hong Kong SAR`
+- **Jija** [미슐랭 셀렉티드] — Innovative · `15F, Kimpton Hotel, 11 Middle Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Jin Jang** [미슐랭 셀렉티드] — Noodles · `GF, 128 Yu Chau Street, Sham Shui Po, Hong Kong, Hong Kong SAR`
+- **Ki Tsui** [미슐랭 셀렉티드] — Street Food · `135 Fa Yuen Street, Mong Kok, Hong Kong, Hong Kong SAR`
+- **Man Kee Cart Noodles (Sham Shui Po)** [미슐랭 셀렉티드] — Street Food · `121 Fuk Wing Street, Sham Shui Po, Hong Kong, Hong Kong SAR`
+- **Ming Court (Mong Kok)** [미슐랭 셀렉티드] — Cantonese · `6F, Cordis Hotel, 555 Shanghai Street, Mong Kok, Hong Kong, Hong Kong SAR`
+- **Mosu** [미슐랭 셀렉티드] — Innovative · `3F, M+ Tower, West Kowloon Cultural District, 38 Museum Drive, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Mrs. Fong Chinese Desserts** [미슐랭 셀렉티드] — Street Food · `198 Temple Street, Jordan, Hong Kong, Hong Kong SAR`
+- **Owl's** [미슐랭 셀렉티드] — Street Food · `GF, 32 Mody Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Shum Shum Desserts** [미슐랭 셀렉티드] — Street Food · `Shop C, GF, 46 Kweilin Street, Sham Shui Po, Hong Kong, Hong Kong SAR`
+- **Spice Bazaar** [미슐랭 셀렉티드] — Indian · `4F, 10 Prat, 10 Prat Avenue, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Temple Street Beef Offal** [미슐랭 셀렉티드] — Street Food · `18 Arthur Street, Yau Ma Tei, Hong Kong, Hong Kong SAR`
+- **The Steak House** [미슐랭 셀렉티드] — Steakhouse · `GF, Regent, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Twist & Buckle** [미슐랭 셀렉티드] — Street Food · `29-31 Chatham Road South, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Udatsu Sushi** [미슐랭 셀렉티드] — Sushi · `GF, Stable Block, FWD House 1881, 2A Canton Road, Tsim Sha Tsui, Hong Kong, Hong Kong SAR`
+- **Australian Dairy Company (호주우유공사)** [홍콩 로컬 명소] — 차찬텡 · 스크램블에그·마카로니 (스크램블에그 토스트, 스팀드 밀크 푸딩, 마카로니 수프) · `47-49 Parkes St, Jordan, Hong Kong`
+- **Bakehouse Tsim Sha Tsui (베이크하우스 침사추이)** [홍콩 로컬 명소] — 베이커리 · 사워도우 에그타르트 (사워도우 에그타르트, 크루아상) · `44 Hankow Rd, Tsim Sha Tsui, Hong Kong`
+- **One Dim Sum (원딤섬)** [홍콩 로컬 명소] — 딤섬 전문점 (하가우, 샤오마이, 차슈바오 외 1종) · `G/F, 209A Tung Choi St, Prince Edward, Hong Kong`
+- **DimDimSum Mong Kok (딤딤섬 몽콕)** [홍콩 로컬 명소] — 딤섬 전문점 (크리스피 창펀, 하가우, 가지 딤섬 외 1종) · `112 Tung Choi St, Mong Kok, Hong Kong`
+- **Kam Wah Cafe (금화빙청)** [홍콩 로컬 명소] — 차찬텡 · 파인애플번 (파인애플 버터번(뽀로야우), 에그타르트, 홍콩 밀크티) · `47 Bute St, Prince Edward, Hong Kong`
+- **Mammy Pancake (마미 팬케이크 침사추이)** [홍콩 로컬 명소] — 홍콩 에그와플(가이단자이) (오리지널 에그와플, 말차 초코칩 와플) · `8-12 Carnarvon Rd, Tsim Sha Tsui, Hong Kong`
+- **Wah So Cafe (화소빙실 침사추이)** [홍콩 로컬 명소] — 차찬텡 · 파인애플번·토마토면 (파인애플번 토마토계란, 피단 고수 국수, 밀크티) · `G/F, 10 Minden Ave, Tsim Sha Tsui, Hong Kong`
+- **Yee Shun Milk Company (이슌 밀크컴퍼니)** [홍콩 로컬 명소] — 디저트 · 우유 푸딩 (더블 스킨 스팀드 밀크 푸딩, 생강 우유 푸딩) · `63 Pilkem St, Jordan, Hong Kong`
+- **Hashtag B (해시태그 비 침사추이)** [홍콩 로컬 명소] — 베이커리 · 나폴레옹 에그타르트 (나폴레옹 에그타르트, 파인애플번) · `49 Carnarvon Rd, Tsim Sha Tsui, Hong Kong`
+- **Jenny Bakery (제니 베이커리 침사추이)** [홍콩 로컬 명소] — 베이커리 · 마약 쿠키 (4믹스 버터 쿠키, 커피 쿠키) · `Shop 42, Mirador Mansion, 54-64 Nathan Rd, Tsim Sha Tsui`
+
+## 📍 신계·란타우 (13곳)
+- **Loaf On** [미슐랭 1스타] — Fish and Seafood · `49 See Cheung Street, Sai Kung, Hong Kong, Hong Kong SAR`
+- **Banana Boy** [미슐랭 빕구르망] — Street Food · `Shop 18, GF, Shun Fung Building, 5-7 Fung Yau Street North, Yuen Long, Hong Kong, Hong Kong SAR`
+- **Dragon Inn** [미슐랭 빕구르망] — Seafood · `12 Tsing Ha Lane, Castle Peak Road, Tuen Mun, Hong Kong, Hong Kong SAR`
+- **Hao Tang Hao Mian (Tai Wai)** [미슐랭 빕구르망] — Noodles · `GF, 20 Chik Chuen Street, Tai Wai, Hong Kong, Hong Kong SAR`
+- **Ho To Tai** [미슐랭 빕구르망] — Noodles · `67 Fau Tsoi Street, Yuen Long, Hong Kong, Hong Kong SAR`
+- **Tai Wai Dining Room** [미슐랭 빕구르망] — Cantonese · `98 Chik Fuk Street, Tai Wai, Hong Kong, Hong Kong SAR`
+- **Tai Wing Wah** [미슐랭 빕구르망] — Cantonese · `2F, 2-6 On Ning Road, Yuen Long, Hong Kong, Hong Kong SAR`
+- **Tin Hung** [미슐랭 빕구르망] — Cantonese Roast Meats · `Shop D, GF, Yan Yee Building, 88 Kin Yip Street, Yuen Long, Hong Kong, Hong Kong SAR`
+- **Yue Kee** [미슐랭 빕구르망] — Cantonese · `9 Sham Hong Road, Sham Tseng, Hong Kong, Hong Kong SAR`
+- **Chuen Kee Seafood (Hoi Pong Street)** [미슐랭 셀렉티드] — Fish and Seafood · `53 Hoi Pong Street, Sai Kung, Hong Kong, Hong Kong SAR`
+- **So Kee** [미슐랭 셀렉티드] — Street Food · `Shop 15, GF, Block A, Ho Shun Yee Building, 9 Fung Yau Street East, Yuen Long, Hong Kong, Hong Kong SAR`
+- **Tai Tsai (Tsuen Wan)** [미슐랭 셀렉티드] — Taiwanese · `GF, 99 Hoi Pa Street, Tsuen Wan, Hong Kong, Hong Kong SAR`
+- **Yuè (Gold Coast)** [미슐랭 셀렉티드] — Cantonese · `LG, Gold Coast Hotel, 1 Castle Peak Road, Gold Coast, Tuen Mun, Hong Kong, Hong Kong SAR`

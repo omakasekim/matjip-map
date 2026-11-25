@@ -17,22 +17,31 @@ import {
   Map as MapIcon,
 } from 'lucide-react';
 import {
+  BADGE_FILTERS,
+  BadgeFilter,
   BasemapStyle,
+  COUNTRIES,
+  COUNTRY_BY_CODE,
+  CountryFilter,
   MACRO_CATEGORIES,
   MapBounds,
   Place,
-  REGIONS,
   getCategoryMeta,
 } from './types';
-import { MapView } from './components/MapView';
+import { CameraTarget, MapView } from './components/MapView';
 import { PlaceDetailCard } from './components/PlaceDetailCard';
 import { DiscordShareModal } from './components/DiscordShareModal';
 import { FullListView, SortKey } from './components/FullListView';
-import { formatMenuSummary, haversineKm } from './utils/format';
+import { formatMenuSummary, getCountryLabel, haversineKm } from './utils/format';
 
-const FAV_STORAGE_KEY = 'matjip_map_favorites_v1';
+const FAV_STORAGE_KEY = 'matjip_map_favorites_v2';
 const PAGE_SIZE = 60;
 type ViewMode = 'map' | 'list';
+
+function parseCountryParam(v: string | null): CountryFilter {
+  if (v === 'KR' || v === 'JP' || v === 'HK' || v === 'TW' || v === 'ALL') return v;
+  return 'ALL';
+}
 
 export function App() {
   const [allPlaces, setAllPlaces] = useState<Place[]>([]);
@@ -40,10 +49,14 @@ export function App() {
   const [error, setError] = useState<string | null>(null);
 
   // Filters
+  const [country, setCountry] = useState<CountryFilter>(() =>
+    parseCountryParam(new URLSearchParams(window.location.search).get('country')),
+  );
   const [query, setQuery] = useState(() => new URLSearchParams(window.location.search).get('q') || '');
   const [region, setRegion] = useState(() => new URLSearchParams(window.location.search).get('region') || '전체');
   const [subregion, setSubregion] = useState(() => new URLSearchParams(window.location.search).get('sub') || '전체');
   const [macroCat, setMacroCat] = useState(() => new URLSearchParams(window.location.search).get('cat') || '전체');
+  const [badgeFilter, setBadgeFilter] = useState<BadgeFilter>('ALL');
   const [onlyFavorites, setOnlyFavorites] = useState(false);
   const [onlyInBounds, setOnlyInBounds] = useState(false);
   const [mapBounds, setMapBounds] = useState<MapBounds | null>(null);
@@ -57,6 +70,7 @@ export function App() {
   const [sidebarOpen, setSidebarOpen] = useState(() => window.innerWidth >= 768);
   const [basemap, setBasemap] = useState<BasemapStyle>('osm');
   const [fitTrigger, setFitTrigger] = useState(0);
+  const [cameraTarget, setCameraTarget] = useState<CameraTarget | null>(null);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [shareOpen, setShareOpen] = useState(false);
   const [showFilters, setShowFilters] = useState(true);
@@ -84,10 +98,17 @@ export function App() {
       })
       .then((data: Place[]) => {
         setAllPlaces(data);
-        const placeParam = new URLSearchParams(window.location.search).get('place');
+        const params = new URLSearchParams(window.location.search);
+        const placeParam = params.get('place');
         if (placeParam) {
           const found = data.find((p) => String(p.i) === placeParam);
           if (found) setSelectedPlace(found);
+        } else {
+          const initCountry = parseCountryParam(params.get('country'));
+          if (initCountry !== 'ALL') {
+            const c = COUNTRY_BY_CODE[initCountry];
+            setCameraTarget({ lat: c.center[0], lng: c.center[1], zoom: c.zoom, seq: Date.now() });
+          }
         }
       })
       .catch((err) => setError(err.message))
@@ -97,6 +118,7 @@ export function App() {
   // Sync URL query params cleanly
   useEffect(() => {
     const params = new URLSearchParams();
+    if (country !== 'ALL') params.set('country', country);
     if (query.trim()) params.set('q', query.trim());
     if (region !== '전체') params.set('region', region);
     if (subregion !== '전체') params.set('sub', subregion);
@@ -106,9 +128,8 @@ export function App() {
     const qs = params.toString();
     const nextUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
     window.history.replaceState(null, '', nextUrl);
-  }, [query, region, subregion, macroCat, viewMode, selectedPlace]);
+  }, [country, query, region, subregion, macroCat, viewMode, selectedPlace]);
 
-  // Save favorites
   const toggleFavorite = useCallback((id: number) => {
     setFavorites((prev) => {
       const next = new Set(prev);
@@ -123,29 +144,57 @@ export function App() {
     });
   }, []);
 
-  // Available subregions for current region
+  // Country counts
+  const countryCounts = useMemo(() => {
+    const counts: Record<CountryFilter, number> = { ALL: allPlaces.length, KR: 0, JP: 0, HK: 0, TW: 0 };
+    for (const p of allPlaces) counts[p.co] = (counts[p.co] || 0) + 1;
+    return counts;
+  }, [allPlaces]);
+
+  // Dynamic regions for active country
+  const availableRegions = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const p of allPlaces) {
+      if (country !== 'ALL' && p.co !== country) continue;
+      counts.set(p.r, (counts.get(p.r) || 0) + 1);
+    }
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  }, [allPlaces, country]);
+
+  // Dynamic subregions for active country + region
   const subregions = useMemo(() => {
     const counts = new Map<string, number>();
     for (const p of allPlaces) {
+      if (country !== 'ALL' && p.co !== country) continue;
       if (region !== '전체' && p.r !== region) continue;
       counts.set(p.sr, (counts.get(p.sr) || 0) + 1);
     }
     return [...counts.entries()].sort((a, b) => b[1] - a[1]);
-  }, [allPlaces, region]);
+  }, [allPlaces, country, region]);
 
-  // Base filtered places (used for map markers)
+  // Filtered places
   const filteredPlaces = useMemo(() => {
     const q = query.trim().toLowerCase();
     const tokens = q ? q.split(/\s+/).filter(Boolean) : [];
 
     const out = allPlaces.filter((p) => {
+      if (country !== 'ALL' && p.co !== country) return false;
       if (region !== '전체' && p.r !== region) return false;
       if (subregion !== '전체' && p.sr !== subregion) return false;
       if (macroCat !== '전체' && p.mc !== macroCat) return false;
       if (onlyFavorites && !favorites.has(p.i)) return false;
 
+      if (badgeFilter !== 'ALL') {
+        const b = p.b || '';
+        if (badgeFilter === 'TABELOG' && !b.includes('타베로그')) return false;
+        if (badgeFilter === 'MICHELIN' && !b.includes('미슐랭')) return false;
+        if (badgeFilter === 'MYMAP' && !b.includes('추천')) return false;
+        if (badgeFilter === 'LOCAL' && !b.includes('로컬 명소')) return false;
+      }
+
       if (tokens.length > 0) {
-        const hay = `${p.n} ${p.c} ${p.mc} ${p.r} ${p.sr} ${p.a} ${p.m.map((x) => x.n).join(' ')}`.toLowerCase();
+        const menusTxt = p.m ? p.m.map((x) => x.n).join(' ') : '';
+        const hay = `${p.n} ${p.c} ${p.mc} ${p.r} ${p.sr} ${p.a} ${p.b || ''} ${menusTxt}`.toLowerCase();
         for (const t of tokens) {
           if (!hay.includes(t)) return false;
         }
@@ -157,7 +206,7 @@ export function App() {
       return [...out].sort((a, b) => a.n.localeCompare(b.n, 'ko'));
     }
     if (sortBy === 'menus') {
-      return [...out].sort((a, b) => b.mt - a.mt);
+      return [...out].sort((a, b) => (b.mt ?? 0) - (a.mt ?? 0));
     }
     if ((sortBy === 'distance' || sortBy === 'default') && userLocation) {
       return [...out].sort(
@@ -167,9 +216,8 @@ export function App() {
       );
     }
     return out;
-  }, [allPlaces, query, region, subregion, macroCat, onlyFavorites, favorites, userLocation, sortBy]);
+  }, [allPlaces, country, query, region, subregion, macroCat, badgeFilter, onlyFavorites, favorites, userLocation, sortBy]);
 
-  // Sidebar list optionally clipped to visible map viewport
   const listPlaces = useMemo(() => {
     if (!onlyInBounds || !mapBounds) return filteredPlaces;
     return filteredPlaces.filter(
@@ -181,10 +229,18 @@ export function App() {
     );
   }, [filteredPlaces, onlyInBounds, mapBounds]);
 
-  // Reset pagination when filters change
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [query, region, subregion, macroCat, onlyFavorites, onlyInBounds]);
+  }, [country, query, region, subregion, macroCat, badgeFilter, onlyFavorites, onlyInBounds]);
+
+  const handleCountryChange = (nextCountry: CountryFilter) => {
+    setCountry(nextCountry);
+    setRegion('전체');
+    setSubregion('전체');
+    setSelectedPlace(null);
+    const info = COUNTRY_BY_CODE[nextCountry];
+    setCameraTarget({ lat: info.center[0], lng: info.center[1], zoom: info.zoom, seq: Date.now() });
+  };
 
   const handleRegionChange = (nextRegion: string) => {
     setRegion(nextRegion);
@@ -202,6 +258,7 @@ export function App() {
     if (pool.length === 0) return;
     const pick = pool[Math.floor(Math.random() * pool.length)];
     setSelectedPlace(pick);
+    setViewMode('map');
     if (window.innerWidth < 768) setSidebarOpen(false);
   };
 
@@ -228,27 +285,38 @@ export function App() {
     setBasemap((prev) => (prev === 'osm' ? 'dark' : prev === 'dark' ? 'voyager' : 'osm'));
   };
 
-  const basemapLabel = basemap === 'osm' ? '한국어 지도' : basemap === 'dark' ? '다크 맵' : '클린 맵';
+  const basemapLabel = basemap === 'osm' ? '표준 지도' : basemap === 'dark' ? '다크 맵' : '클린 맵';
 
   const filterLabel = useMemo(() => {
     const parts: string[] = [];
+    if (country !== 'ALL') {
+      const c = COUNTRY_BY_CODE[country];
+      parts.push(`${c.flag} ${c.label}`);
+    }
     if (region !== '전체') parts.push(region);
     if (subregion !== '전체') parts.push(subregion);
     if (macroCat !== '전체') parts.push(macroCat);
+    if (badgeFilter !== 'ALL') {
+      const bf = BADGE_FILTERS.find((x) => x.id === badgeFilter);
+      if (bf) parts.push(bf.label);
+    }
     if (query.trim()) parts.push(`"${query.trim()}"`);
     if (onlyFavorites) parts.push('즐겨찾기');
     if (onlyInBounds) parts.push('지도 영역');
-    return parts.length > 0 ? parts.join(' · ') : '전국 맛집 리스트';
-  }, [region, subregion, macroCat, query, onlyFavorites, onlyInBounds]);
+    return parts.length > 0 ? parts.join(' · ') : '아시아 맛집 지도 (한국·일본·홍콩·대만)';
+  }, [country, region, subregion, macroCat, badgeFilter, query, onlyFavorites, onlyInBounds]);
 
   const resetAllFilters = () => {
+    setCountry('ALL');
     setQuery('');
     setRegion('전체');
     setSubregion('전체');
     setMacroCat('전체');
+    setBadgeFilter('ALL');
     setOnlyFavorites(false);
     setOnlyInBounds(false);
-    setTimeout(() => setFitTrigger((x) => x + 1), 30);
+    const info = COUNTRY_BY_CODE['ALL'];
+    setCameraTarget({ lat: info.center[0], lng: info.center[1], zoom: info.zoom, seq: Date.now() });
   };
 
   const selectedDistance = useMemo(() => {
@@ -256,16 +324,26 @@ export function App() {
     return haversineKm(userLocation.lat, userLocation.lng, selectedPlace.lat, selectedPlace.lng);
   }, [selectedPlace, userLocation]);
 
+  const hasAnyFilter =
+    country !== 'ALL' ||
+    Boolean(query) ||
+    region !== '전체' ||
+    subregion !== '전체' ||
+    macroCat !== '전체' ||
+    badgeFilter !== 'ALL' ||
+    onlyFavorites ||
+    onlyInBounds;
+
   return (
     <div className="relative h-screen w-screen flex overflow-hidden bg-[#070B14] text-slate-100">
       {/* Sidebar Drawer */}
       <aside
         className={`fixed md:relative top-0 left-0 z-[1100] h-full bg-[#0B1120]/96 backdrop-blur-xl border-r border-slate-800/90 flex flex-col transition-all duration-200 ${
-          sidebarOpen ? 'w-[90vw] max-w-[390px] translate-x-0' : 'w-0 -translate-x-full md:translate-x-0 overflow-hidden border-r-0'
+          sidebarOpen ? 'w-[92vw] max-w-[400px] translate-x-0' : 'w-0 -translate-x-full md:translate-x-0 overflow-hidden border-r-0'
         }`}
       >
         {/* Brand Header */}
-        <div className="px-4 pt-4 pb-3 border-b border-slate-800/80 shrink-0">
+        <div className="px-4 pt-3.5 pb-3 border-b border-slate-800/80 shrink-0">
           <div className="flex items-center justify-between gap-2">
             <div className="flex items-center gap-2.5 min-w-0">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-lg shadow-lg shadow-cyan-500/20 shrink-0">
@@ -274,8 +352,8 @@ export function App() {
               <div className="min-w-0">
                 <h1 className="text-base font-extrabold tracking-tight text-white truncate">맛집 지도</h1>
                 <p className="text-[11px] text-slate-400 tabular-nums">
-                  전국 {allPlaces.length.toLocaleString('ko-KR')}곳 · 현재{' '}
-                  <span className="text-cyan-400 font-bold">{listPlaces.length.toLocaleString('ko-KR')}곳</span> 표시
+                  4개국 {allPlaces.length.toLocaleString('ko-KR')}곳 · 표시{' '}
+                  <span className="text-cyan-400 font-bold">{listPlaces.length.toLocaleString('ko-KR')}곳</span>
                 </p>
               </div>
             </div>
@@ -285,7 +363,7 @@ export function App() {
                 href="https://github.com/Aetherx86/matjip-map/blob/main/LIST.md"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="전체 마크다운 리스트 보기"
+                title="국가별 마크다운 리스트 보기"
                 className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition"
               >
                 <BookOpen className="w-4 h-4" />
@@ -300,8 +378,32 @@ export function App() {
             </div>
           </div>
 
+          {/* Country Selector Pills */}
+          <div className="mt-3 grid grid-cols-5 gap-1">
+            {COUNTRIES.map((c) => {
+              const active = country === c.code;
+              return (
+                <button
+                  key={c.code}
+                  onClick={() => handleCountryChange(c.code)}
+                  className={`flex flex-col items-center justify-center py-1.5 px-1 rounded-xl border text-[11px] font-bold transition ${
+                    active
+                      ? 'bg-cyan-500/20 text-cyan-200 border-cyan-400 shadow-sm'
+                      : 'bg-slate-900/90 text-slate-300 border-slate-800 hover:border-slate-600'
+                  }`}
+                >
+                  <span className="text-sm leading-none">{c.flag}</span>
+                  <span className="mt-1 truncate max-w-full">{c.label}</span>
+                  <span className={`text-[9px] tabular-nums ${active ? 'text-cyan-300' : 'text-slate-500'}`}>
+                    {(countryCounts[c.code] || 0).toLocaleString()}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
           {/* Search input */}
-          <div className="mt-3 relative">
+          <div className="mt-2.5 relative">
             <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
@@ -310,8 +412,8 @@ export function App() {
               onKeyDown={(e) => {
                 if (e.key === 'Enter') setFitTrigger((x) => x + 1);
               }}
-              placeholder="식당명, 메뉴, 지역 검색 (예: 수원, 냉면, 곱창)"
-              className="w-full pl-9 pr-16 py-2.5 rounded-xl bg-slate-950/90 border border-slate-700/80 text-sm text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-500 transition"
+              placeholder="식당명, 메뉴, 지역 검색 (수원, 도쿄, 라멘, 딤섬...)"
+              className="w-full pl-9 pr-16 py-2 rounded-xl bg-slate-950/90 border border-slate-700/80 text-sm text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-500 transition"
             />
             <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
               {query && (
@@ -336,7 +438,7 @@ export function App() {
           </div>
 
           {/* Quick action bar */}
-          <div className="mt-2.5 flex items-center gap-1.5 flex-wrap">
+          <div className="mt-2 flex items-center gap-1.5 flex-wrap">
             <button
               onClick={handleRandomPick}
               className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 transition"
@@ -371,29 +473,36 @@ export function App() {
               }`}
             >
               <MapPin className="w-3.5 h-3.5" />
-              <span>현재 지도 내</span>
+              <span>지도 내</span>
             </button>
           </div>
         </div>
 
         {/* Collapsible Filters */}
         {showFilters && (
-          <div className="px-4 py-3 border-b border-slate-800/80 space-y-2.5 shrink-0 bg-slate-900/40">
+          <div className="px-4 py-2.5 border-b border-slate-800/80 space-y-2 shrink-0 bg-slate-900/40">
             {/* Regions */}
             <div>
-              <div className="flex items-center justify-between mb-1.5">
+              <div className="flex items-center justify-between mb-1">
                 <span className="text-[11px] font-bold text-slate-400">지역</span>
-                {(query || region !== '전체' || subregion !== '전체' || macroCat !== '전체' || onlyFavorites || onlyInBounds) && (
-                  <button
-                    onClick={resetAllFilters}
-                    className="text-[11px] text-cyan-400 hover:underline"
-                  >
-                    필터 초기화
+                {hasAnyFilter && (
+                  <button onClick={resetAllFilters} className="text-[11px] text-cyan-400 hover:underline">
+                    전체 초기화
                   </button>
                 )}
               </div>
               <div className="flex gap-1.5 overflow-x-auto pb-1">
-                {REGIONS.map((r) => (
+                <button
+                  onClick={() => handleRegionChange('전체')}
+                  className={`px-2.5 py-1 rounded-lg text-xs font-semibold whitespace-nowrap border transition ${
+                    region === '전체'
+                      ? 'bg-cyan-500 text-slate-950 border-cyan-400'
+                      : 'bg-slate-900 text-slate-300 border-slate-700/80 hover:border-slate-500'
+                  }`}
+                >
+                  전체
+                </button>
+                {availableRegions.map(([r, cnt]) => (
                   <button
                     key={r}
                     onClick={() => handleRegionChange(r)}
@@ -403,34 +512,43 @@ export function App() {
                         : 'bg-slate-900 text-slate-300 border-slate-700/80 hover:border-slate-500'
                     }`}
                   >
-                    {r}
+                    {r} <span className="opacity-70 text-[10px]">({cnt})</span>
                   </button>
                 ))}
               </div>
             </div>
 
-            {/* Subregion select */}
-            {subregions.length > 0 && (
-              <div className="flex items-center gap-2">
-                <span className="text-[11px] font-bold text-slate-400 shrink-0">시/구</span>
-                <select
-                  value={subregion}
-                  onChange={(e) => handleSubregionChange(e.target.value)}
-                  className="flex-1 bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500"
-                >
-                  <option value="전체">전체 세부 지역 ({subregions.length}개)</option>
-                  {subregions.map(([sr, cnt]) => (
-                    <option key={sr} value={sr}>
-                      {sr} ({cnt}곳)
-                    </option>
-                  ))}
-                </select>
-              </div>
-            )}
+            {/* Subregion + Badge/Rating filter row */}
+            <div className="grid grid-cols-2 gap-1.5">
+              <select
+                value={subregion}
+                onChange={(e) => handleSubregionChange(e.target.value)}
+                className="bg-slate-950 border border-slate-700 rounded-lg px-2 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500 truncate"
+              >
+                <option value="전체">세부 지역 전체 ({subregions.length})</option>
+                {subregions.map(([sr, cnt]) => (
+                  <option key={sr} value={sr}>
+                    {sr} ({cnt})
+                  </option>
+                ))}
+              </select>
+
+              <select
+                value={badgeFilter}
+                onChange={(e) => setBadgeFilter(e.target.value as BadgeFilter)}
+                className="bg-slate-950 border border-slate-700 rounded-lg px-2 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500 truncate"
+              >
+                {BADGE_FILTERS.map((bf) => (
+                  <option key={bf.id} value={bf.id}>
+                    {bf.label}
+                  </option>
+                ))}
+              </select>
+            </div>
 
             {/* Food categories */}
             <div>
-              <span className="text-[11px] font-bold text-slate-400 block mb-1.5">음식 종류</span>
+              <span className="text-[11px] font-bold text-slate-400 block mb-1">음식 종류</span>
               <div className="flex gap-1.5 overflow-x-auto pb-1">
                 {MACRO_CATEGORIES.map((mc) => {
                   const meta = mc === '전체' ? null : getCategoryMeta(mc);
@@ -457,7 +575,7 @@ export function App() {
         {/* Restaurant list */}
         <div className="flex-1 overflow-y-auto divide-y divide-slate-800/60">
           {loading ? (
-            <div className="p-8 text-center text-sm text-slate-400">맛집 데이터를 불러오는 중...</div>
+            <div className="p-8 text-center text-sm text-slate-400">4개국 맛집 데이터를 불러오는 중...</div>
           ) : error ? (
             <div className="p-8 text-center text-sm text-rose-400">{error}</div>
           ) : listPlaces.length === 0 ? (
@@ -484,6 +602,7 @@ export function App() {
                     key={p.i}
                     onClick={() => {
                       setSelectedPlace(p);
+                      if (viewMode === 'list') setViewMode('map');
                       if (window.innerWidth < 768) setSidebarOpen(false);
                     }}
                     className={`w-full text-left px-4 py-3 transition hover:bg-slate-800/60 ${
@@ -493,14 +612,22 @@ export function App() {
                     <div className="flex items-start justify-between gap-2">
                       <div className="min-w-0">
                         <div className="flex items-center gap-1.5">
+                          <span className="text-xs shrink-0">{COUNTRY_BY_CODE[p.co]?.flag}</span>
                           <span className="text-sm font-bold text-white truncate">{p.n}</span>
                           {isFav && <Heart className="w-3.5 h-3.5 text-rose-400 shrink-0" fill="currentColor" />}
                         </div>
+                        {p.b && (
+                          <span className="inline-block mt-0.5 text-[10px] font-bold px-1.5 py-0.2 rounded bg-amber-500/15 text-amber-300 border border-amber-500/25">
+                            {p.b}
+                          </span>
+                        )}
                         <p className="text-xs text-slate-300 mt-0.5 line-clamp-1">
                           <span className="mr-1">{meta.emoji}</span>
                           {formatMenuSummary(p, 3)}
                         </p>
-                        <p className="text-[11px] text-slate-500 mt-1 truncate">{p.a}</p>
+                        <p className="text-[11px] text-slate-500 mt-0.5 truncate">
+                          {getCountryLabel(p.co)} · {p.a}
+                        </p>
                       </div>
                       {dist !== null && (
                         <span className="shrink-0 text-[11px] font-semibold text-cyan-400 tabular-nums">
@@ -518,7 +645,8 @@ export function App() {
                     onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
                     className="w-full py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 transition"
                   >
-                    더 보기 ({Math.min(visibleCount, listPlaces.length)} / {listPlaces.length.toLocaleString('ko-KR')})
+                    더 보기 ({Math.min(visibleCount, listPlaces.length).toLocaleString()} /{' '}
+                    {listPlaces.length.toLocaleString('ko-KR')})
                   </button>
                 </div>
               )}
@@ -541,7 +669,7 @@ export function App() {
             </button>
           )}
 
-          {/* View Mode Switcher: Map vs Full List */}
+          {/* View Mode Switcher */}
           <div className="flex items-center p-1 rounded-xl bg-slate-900/95 backdrop-blur-md border border-slate-700 shadow-xl">
             <button
               onClick={() => setViewMode('map')}
@@ -597,7 +725,7 @@ export function App() {
 
               <button
                 onClick={cycleBasemap}
-                title="지도 스타일 전환 (한국어 지도 / 다크 맵 / 클린 맵)"
+                title="지도 스타일 전환 (표준 지도 / 다크 맵 / 클린 맵)"
                 className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-slate-900/92 text-slate-100 border border-slate-700 hover:bg-slate-800 shadow-lg backdrop-blur-md transition"
               >
                 <Layers className="w-3.5 h-3.5 text-amber-400" />
@@ -607,7 +735,7 @@ export function App() {
           )}
         </div>
 
-        {/* Floating Live Filter Pill (Top Center on Desktop) */}
+        {/* Floating Live Filter Pill */}
         <div className="hidden xl:flex absolute top-3 left-1/2 -translate-x-1/2 z-[999] items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/88 backdrop-blur-md border border-slate-700/80 shadow-lg text-xs text-slate-200 pointer-events-none">
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
           <span className="font-semibold">{filterLabel}</span>
@@ -615,7 +743,7 @@ export function App() {
           <span className="text-cyan-300 font-bold tabular-nums">{listPlaces.length.toLocaleString('ko-KR')}곳</span>
         </div>
 
-        {/* Keep MapView mounted so pan/zoom state is preserved across tab toggles */}
+        {/* Keep MapView mounted */}
         <div className={viewMode === 'map' ? 'w-full h-full' : 'hidden'}>
           <MapView
             places={filteredPlaces}
@@ -624,6 +752,7 @@ export function App() {
             onBoundsChange={setMapBounds}
             basemap={basemap}
             fitTrigger={fitTrigger}
+            cameraTarget={cameraTarget}
             userLocation={userLocation}
             visible={viewMode === 'map'}
           />
@@ -647,7 +776,7 @@ export function App() {
           />
         )}
 
-        {/* Selected Place Detail Drawer */}
+        {/* Selected Place Detail Card */}
         {viewMode === 'map' && selectedPlace && (
           <PlaceDetailCard
             place={selectedPlace}
