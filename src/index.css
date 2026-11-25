@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Sleek custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6);
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  background: #0b1120;
+}
+.light-map .leaflet-container {
+  background: #e2e8f0;
+}
+
+/* Custom cluster icon */
+.matjip-cluster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: #ffffff;
+  border: 2.5px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.38);
+  transition: transform 0.15s ease;
+}
+.matjip-cluster:hover {
+  transform: scale(1.1);
+}
+.matjip-cluster-sm {
+  background: linear-gradient(135deg, #06b6d4, #2563eb);
+  font-size: 12px;
+}
+.matjip-cluster-md {
+  background: linear-gradient(135deg, #f97316, #ef4444);
+  font-size: 13px;
+}
+.matjip-cluster-lg {
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  font-size: 14px;
+}
+
+/* Custom single pin */
+.matjip-pin-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(-50%, -100%);
+  cursor: pointer;
+}
+.matjip-pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.matjip-pin-inner {
+  transform: rotate(45deg);
+  font-size: 13px;
+  line-height: 1;
+}
+.matjip-pin-selected .matjip-pin {
+  transform: rotate(-45deg) scale(1.28);
+  box-shadow: 0 0 0 5px rgba(56, 189, 248, 0.45), 0 8px 22px rgba(0, 0, 0, 0.5);
+  z-index: 9999 !important;
+}
+
+/* Custom tooltip */
+.leaflet-tooltip.matjip-tooltip {
+  background: rgba(15, 23, 42, 0.94);
+  color: #f8fafc;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+}
+.leaflet-tooltip.matjip-tooltip::before {
+  border-top-color: rgba(15, 23, 42, 0.94);
+}
